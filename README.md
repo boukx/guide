@@ -7,7 +7,7 @@ This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 g
 
 ## Table of Contents
 - [Talents](#talents)
-  - [Raid Viable MM Talents](#raid-viable-mm-talents)
+  - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
   - [Clipping](#clipping)
   - [Openers](#openers)
@@ -36,9 +36,9 @@ I would recommend [2/31/18](https://classicdb.ch/?talent#cbZViohthtI0rroh) if no
 
 Survival and Beast Mastery can do more damage than Marksman if invested into, at the cost of TS aura.  If you do not need to provide your raid with TS aura, consider other a talent spec other than MM.
 
-### Raid Viable MM Talents
+### Raid Viable PvP Talents
 
-Hunters can take a very viable PvP spec to raid.  After taking [31 in MM](https://classicdb.ch/?talent#cZgVohtht), you can put points into Improved Aspect of the Hawk for some ranged DPS haste.  If you want to skew harder to PvP, skip that and go straight to the survival tree.
+Hunters can take a very viable PvP/MM spec to raid.  After taking [31 in MM](https://classicdb.ch/?talent#cZgVohtht), you can put points into Improved Aspect of the Hawk for some ranged DPS haste.  If you want to skew harder to PvP, skip that and go straight to the survival tree.
 
 - Monster Slaying and Humanoid Slaying are clear choices for BWL and PvP respectively.  
 - Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick._  It can cause some weird aggro glitches and mess with pulls like the Goblin Technicians in BWL.
@@ -55,7 +55,7 @@ Hunters can take a very viable PvP spec to raid.  After taking [31 in MM](https:
 
 With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.
 
-You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown with an auto between them.  After 3 cycles you both Aimed and multishot wil come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your autoshot every time for a damage loss.
+You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown with an auto between them.  After 3 cycles both Aimed and Multishot wil come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your Aimed Shot every time for a damage loss.
 
 ### Clipping
 
@@ -158,147 +158,36 @@ TLDR: rings without hit are better than rings with hit.  If you can afford to dr
 
 Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often misleading as slower weapons will do much better damage than faster ones.  Below is a list of hunter weapons tiered by their DPS for a tier 2 MM hunter and whether the weapons should be clipped.  Please be informed-- it is not worth taking a Striker's Mark or something similar from a melee when a blue dungeon weapon is better.
 
-```
-1. Nerubian Slavemaker, 3.2 speed
-Best cycle DPS: 599, Full
-Worst cycle DPS: 503, Clipped
-Auto Shot DPS: 304 (1st)
-
-2. – Ashjre’thul, 3.4 speed
-Best cycle DPS: 571, Full
-Worst cycle DPS: 491, Clipped
-Auto Shot DPS: 283 (9th)
-
-3. – Larvae of the Great Worm, 3.0 speed
-Best cycle DPS: 558, Clipped
-Worst cycle DPS: 530, Full
-Auto Shot DPS: 290 (3rd)
-
-4. – Soulstring, 2.9 speed
-Best cycle DPS: 551, Clipped
-Worst cycle DPS: 534, Full
-Auto Shot DPS: 293 (2nd)
-
-5. – Crossbow of Imminent Doom, 3.1 speed
-Best cycle DPS: 547, Clipped
-Worst cycle DPS: 507, Full
-Auto Shot DPS: 276 (13th)
-
-6. – Grand Marshal’s Hand Cannon & Repeater / High Warlord’s Street Sweeper & Crossbow, 2.9 speed
-Best cycle DPS: 538, Clipped
-Worst cycle DPS: 521, Full
-Auto Shot DPS: 285 (8th)
-
-7. – Rhok’delar, 2.9 speed
-Best cycle DPS: 534, Clipped
-Worst cycle DPS: 517, Full
-Auto Shot DPS: 282 (10th)
-
-8. – Fahrad’s Reloading Repeater, 3.2 speed
-Best cycle DPS: 530, Full
-Worst cycle DPS: 447, Clipped
-Auto Shot DPS: 261 (22nd)
-
-9. – Bloodseeker, 3.3 speed
-Best cycle DPS: 528, Full
-Worst cycle DPS: 451, Clipped
-Auto Shot DPS: 259 (23th)
-
-10. – Huhuran’s Stinger, 2.7 speed
-Best cycle DPS: 525, Full
-Worst cycle DPS: 517, Clipped
-Auto Shot DPS: 286 (6th)
-
-11. – Blessed Qiraji Musket, 2.6 speed
-Best cycle DPS: 525, Full
-Worst cycle DPS: 506, Clipped
-Auto Shot DPS: 286 (6th)
-
-12. – Carapace Spine Crossbow, 3.3 speed
-Best cycle DPS: 523, Full
-Worst cycle DPS: 447, Clipped
-Auto Shot DPS: 257 (26th)
-
-13. – Dragonbreath Hand Cannon, 2.8 speed
-Best cycle DPS: 521, Clipped
-Worst cycle DPS: 516, Full
-Auto Shot DPS: 281 (11th)
-
-14. – Heartstriker, 2.6 speed
-Best cycle DPS: 516, Full
-Worst cycle DPS: 498, Clipped
-Auto Shot DPS: 280 (12th)
-
-15. – Flawless Arcanite Rifle, 3.0 speed
-Best cycle DPS: 510, Clipped
-Worst cycle DPS: 482, Full
-Auto Shot DPS: 233 (28th)
-
-16. – Striker’s Mark, 2.5 speed
-Best cycle DPS: 509, Full
-Worst cycle DPS: 480, Clipped
-Auto Shot DPS: 274 (14th)
-
-17. – Gurubashi Dwarf Destroyer, 2.8 speed
-Best cycle DPS: 508, Clipped
-Worst cycle DPS: 503, Full
-Auto Shot DPS: 272 (16th)
-
-18. – Blastershot Launcher, 2.6 speed
-Best cycle DPS: 508, Full
-Worst cycle DPS: 491, Clipped
-Auto Shot DPS: 274 (14th)
-
-19. – Toxin Injector, 2.0 speed
-Best cycle DPS: 503, Clipped
-Worst cycle DPS: 498, Full
-Auto Shot DPS: 290 (3rd)
-
-20. – Core Marksman Rifle, 2.5 speed
-Best cycle DPS: 503, Full
-Worst cycle DPS: 474, Clipped
-Auto Shot DPS: 270 (18th)
-
-21. – Mandokir’s Sting, 2.6 speed
-Best cycle DPS: 502, Full
-Worst cycle DPS: 484, Clipped
-Auto Shot DPS: 270 (18th)
-
-22. – Hoodoo Hunting Bow, 2.8 speed
-Best cycle DPS: 499, Clipped
-Worst cycle DPS: 493, Full
-Auto Shot DPS: 265 (20th)
-
-23. – Stoneshatter, 2.9 speed
-Best cycle DPS: 499, Clipped
-Worst cycle DPS: 482, Full
-Auto Shot DPS: 258 (25th)
-
-24. – Silithid Husked Launcher, 2.8 speed
-Best cycle DPS: 496, Clipped
-Worst cycle DPS: 490, Full
-Auto Shot DPS: 263 (21st)
-
-25. – Bow of Taut Sinew, 2.2 speed
-Best cycle DPS: 496, Full
-Worst cycle DPS: 445, Clipped
-Auto Shot DPS: 272 (16th)
-
-26. – Grand Marshal’s Bullseye / High Warlord’s Recurve, 1.8 speed
-Best cycle DPS: 494, Full
-Worst cycle DPS: 470, Clipped
-Auto Shot DPS: 287 (5th)
-
-27. – Ancient Bone Bow, 2.8 speed
-Best cycle DPS: 490, Clipped
-Worst cycle DPS: 484, Full
-Auto Shot DPS: 259 (23rd)
-
-28. – Gryphonwing Longbow, 2.7 speed
-Best cycle DPS: 477, Full
-Worst cycle DPS: 473, Clipped
-Auto Shot DPS: 254 (27th)
-```
+| Weapon | AS | Best DPS | Worst DPS | Auto DPS |
+|--------|--------------|----------|-----------|----------|
+| Nerubian Slavemaker | 3.2 | 599, Full |  503, Clipped | 304 (1st) |
+| Ashjre’thul | 3.4 | 571, Full | 491, Clipped | 283 (9th) |
+| Larvae of the Great Worm | 3.0 | 558, Clipped | 530, Full | 290 (3rd) |
+| Soulstring | 2.9 | 551, Clipped | 534, Full | 293 (2nd) |
+| Crossbow of Imminent Doom | 3.1 | 547, Clipped | 507, Full | 276 (13th) |
+| Rank 14 Weapons | 2.9 | 538, Clipped | 521, Full | 285 (8th) |
+| Rhok’delar | 2.9 | 534, Clipped | 517, Full | 282 (10th) |
+| Fahrad’s Reloading Repeater | 3.2 | 530, Full | 447, Clipped | 261 (22nd) |
+| Bloodseeker | 3.3 | 528, Full | 451, Clipped | 259 (23th) |
+| Huhuran’s Stinger | 2.7 | 525, Full | 517, Clipped | 286 (6th) |
+| Blessed Qiraji Musket | 2.6 | 525, Full | 506, Clipped | 286 (6th) |
+| Carapace Spine Crossbow | 3.3 | 523, Full | 447, Clipped | 257 (26th) |
+| Dragonbreath Hand Cannon | 2.8 | 521, Clipped | 516, Full | 281 (11th) |
+| Heartstriker | 2.6 | 516, Full | 498, Clipped | 280 (12th) |
+| Flawless Arcanite Rifle | 3.0 | 510, Clipped | 482, Full | 233 (28th) |
+| Striker’s Mark | 2.5 | 509, Full | 480, Clipped | 274 (14th) |
+| Gurubashi Dwarf Destroyer | 2.8 | 508, Clipped | 503, Full | 272 (16th) |
+| Blastershot Launcher | 2.6 | 508, Full | 491, Clipped | 274 (14th) |
+| Toxin Injector | 2.0 | 503, Clipped | 498, Full | 290 (3rd) |
+| Core Marksman Rifle | 2.5 | 503, Full | 474, Clipped | 270 (18th) |
+| Mandokir’s Sting | 2.6 | 502, Full | 484, Clipped | 270 (18th) |
+| Hoodoo Hunting Bow | 2.8 | 499, Clipped | 493, Full | 265 (20th) |
+| Stoneshatter | 2.9 | 499, Clipped | 482, Full | 258 (25th) |
+| Silithid Husked Launcher | 2.8 | 496, Clipped | 490, Full | 263 (21st) |
+| Bow of Taut Sinew | 2.2 | 496, Full | 445, Clipped | 272 (16th) |
+| Grand Marshal’s Bullseye / High Warlord’s Recurve | 1.8 | 494, Full | 470, Clipped | 287 (5th) |
+| Ancient Bone Bow | 2.8 | 490, Clipped | 484, Full | 259 (23rd) |
+| Gryphonwing Longbow | 2.7 | 477, Full | 473, Clipped | 254 (27th) |
 
 ### Nature Resist Gear for AQ
 
