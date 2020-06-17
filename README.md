@@ -1,7 +1,7 @@
 # Hunters: A Supplementary Guide
 
 This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 guide, nor a pre-BiS gear list, you should find those at [wowhead](https://classic.wowhead.com/guides/classic-wow-hunter-class-overview) or [icy veins](https://www.icy-veins.com/wow-classic/hunter-dps-pve-guide).  There is a lot of misinformation about hunters in Classic Wow--hopefully this document can give you the information you need to come to your own conclusions.  A few things to note before going further:
-- Sim(ulate): simming is the best way to get answers about your current situation.  The [hunter sim](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) should be treated as gospel and is made by people smarter than you or I.  If you have an issue with the sim (or a question):
+- Sim(ulate): simming is the best way to get answers about your current situation.  The [hunter sim](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) should be treated as gospel and is made by people smarter than you or I.  If you have an issue with the sim (or a question in general):
 - The [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr) is the best place to quickly sort out all kinds of issues.
 
 
@@ -16,12 +16,12 @@ This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 g
   - [Macros](#macros)
   - [Weak Auras](#weak-auras)
 - [Buffs](#buffs)
+- [Pets](#pets)
 - [Gear](#gear)
-  - [Ranged Weapons](#ranged-weapons)
   - [T2](#t2)
   - [Rings](#rings)
+  - [Ranged Weapons](#ranged-weapons)
   - [Nature Resist Gear for AQ](#nature-resist-gear-for-aq)
-- [Pets](#pets)
 - Farming
   - [Dire Maul Tribute](#dire-maul-tribute)
 
@@ -59,7 +59,7 @@ You should start with `Auto - aimed - auto - multi -...` and then cast aimed and
 
 ### Clipping
 
-The math which is used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
+The math used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
 
 Clipping fast attack speed weapons yields a DPS boost but will drain mana faster.  See [Ranged Weapons](#ranged-weapons) for specifics of whether you should clip a given weapon. 
 
@@ -134,13 +134,15 @@ There are many guides for hunter consumes so I'm not going to recreate them here
 If nothing else, try to have [Elixir of the Mongoose](https://classic.wowhead.com/item=13452/elixir-of-the-mongoose) and [Grilled Squid](https://classic.wowhead.com/item=13928/grilled-squid) with you at all times.  [Greater Fire Protection Potion](https://classic.wowhead.com/item=13457/greater-fire-protection-potion) are key to protecting your Aimed Shot from suffering pushback on Firemaw, Vael, etc.
 
 
+## Pets
+
+Pets can do a considerable percentage of a hunter's damage even if they are not Beast Mastery hunters.  All hunters should focus on keeping their pet alive (pet uptime).  Hunters raiding BWL and MC should take the following pet skills to maximize damage: max fire resist, max shadow resist, max dash, max claw, rest in stamina.
+
 ## Gear
 
 [Simming](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) is the only way to answer the question of "should I wear X or Y?"  Gear guides can tell you what to pursue, but simming is the end all for making the best of what you have.  For ally hunters, Skinnay already has a [list of simmed gear sets](https://gist.github.com/skinnay-dev/39f71f3cce1c64b95142f7e0e0d97bca).
 
 Its notable that stat priorities change dramatically depending on your faction and rotation.  Alliance members will favor stats like Agi which are increased by kings and weavers will take notably worse weapons for ranged DPS so that their raptor strikes hit harder.
-
-### Ranged Weapons
 
 ### T2
 
@@ -152,6 +154,152 @@ The T2 8 piece set bonus debuff has a proc rate of .5 ppm.  It takes up a debuff
 
 TLDR: rings without hit are better than rings with hit.  If you can afford to drop hit from your ring, probably do it.  Sim is still the best way to tell.
 
+### Ranged Weapons
+
+Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often misleading as slower weapons will do much better damage than faster ones.  Below is a list of hunter weapons tiered by their DPS for a tier 2 MM hunter and whether the weapons should be clipped.  Please be informed-- it is not worth taking a Striker's Mark or something similar from a melee when a blue dungeon weapon is better.
+
+```
+1. Nerubian Slavemaker, 3.2 speed
+Best cycle DPS: 599, Full
+Worst cycle DPS: 503, Clipped
+Auto Shot DPS: 304 (1st)
+
+2. – Ashjre’thul, 3.4 speed
+Best cycle DPS: 571, Full
+Worst cycle DPS: 491, Clipped
+Auto Shot DPS: 283 (9th)
+
+3. – Larvae of the Great Worm, 3.0 speed
+Best cycle DPS: 558, Clipped
+Worst cycle DPS: 530, Full
+Auto Shot DPS: 290 (3rd)
+
+4. – Soulstring, 2.9 speed
+Best cycle DPS: 551, Clipped
+Worst cycle DPS: 534, Full
+Auto Shot DPS: 293 (2nd)
+
+5. – Crossbow of Imminent Doom, 3.1 speed
+Best cycle DPS: 547, Clipped
+Worst cycle DPS: 507, Full
+Auto Shot DPS: 276 (13th)
+
+6. – Grand Marshal’s Hand Cannon & Repeater / High Warlord’s Street Sweeper & Crossbow, 2.9 speed
+Best cycle DPS: 538, Clipped
+Worst cycle DPS: 521, Full
+Auto Shot DPS: 285 (8th)
+
+7. – Rhok’delar, 2.9 speed
+Best cycle DPS: 534, Clipped
+Worst cycle DPS: 517, Full
+Auto Shot DPS: 282 (10th)
+
+8. – Fahrad’s Reloading Repeater, 3.2 speed
+Best cycle DPS: 530, Full
+Worst cycle DPS: 447, Clipped
+Auto Shot DPS: 261 (22nd)
+
+9. – Bloodseeker, 3.3 speed
+Best cycle DPS: 528, Full
+Worst cycle DPS: 451, Clipped
+Auto Shot DPS: 259 (23th)
+
+10. – Huhuran’s Stinger, 2.7 speed
+Best cycle DPS: 525, Full
+Worst cycle DPS: 517, Clipped
+Auto Shot DPS: 286 (6th)
+
+11. – Blessed Qiraji Musket, 2.6 speed
+Best cycle DPS: 525, Full
+Worst cycle DPS: 506, Clipped
+Auto Shot DPS: 286 (6th)
+
+12. – Carapace Spine Crossbow, 3.3 speed
+Best cycle DPS: 523, Full
+Worst cycle DPS: 447, Clipped
+Auto Shot DPS: 257 (26th)
+
+13. – Dragonbreath Hand Cannon, 2.8 speed
+Best cycle DPS: 521, Clipped
+Worst cycle DPS: 516, Full
+Auto Shot DPS: 281 (11th)
+
+14. – Heartstriker, 2.6 speed
+Best cycle DPS: 516, Full
+Worst cycle DPS: 498, Clipped
+Auto Shot DPS: 280 (12th)
+
+15. – Flawless Arcanite Rifle, 3.0 speed
+Best cycle DPS: 510, Clipped
+Worst cycle DPS: 482, Full
+Auto Shot DPS: 233 (28th)
+
+16. – Striker’s Mark, 2.5 speed
+Best cycle DPS: 509, Full
+Worst cycle DPS: 480, Clipped
+Auto Shot DPS: 274 (14th)
+
+17. – Gurubashi Dwarf Destroyer, 2.8 speed
+Best cycle DPS: 508, Clipped
+Worst cycle DPS: 503, Full
+Auto Shot DPS: 272 (16th)
+
+18. – Blastershot Launcher, 2.6 speed
+Best cycle DPS: 508, Full
+Worst cycle DPS: 491, Clipped
+Auto Shot DPS: 274 (14th)
+
+19. – Toxin Injector, 2.0 speed
+Best cycle DPS: 503, Clipped
+Worst cycle DPS: 498, Full
+Auto Shot DPS: 290 (3rd)
+
+20. – Core Marksman Rifle, 2.5 speed
+Best cycle DPS: 503, Full
+Worst cycle DPS: 474, Clipped
+Auto Shot DPS: 270 (18th)
+
+21. – Mandokir’s Sting, 2.6 speed
+Best cycle DPS: 502, Full
+Worst cycle DPS: 484, Clipped
+Auto Shot DPS: 270 (18th)
+
+22. – Hoodoo Hunting Bow, 2.8 speed
+Best cycle DPS: 499, Clipped
+Worst cycle DPS: 493, Full
+Auto Shot DPS: 265 (20th)
+
+23. – Stoneshatter, 2.9 speed
+Best cycle DPS: 499, Clipped
+Worst cycle DPS: 482, Full
+Auto Shot DPS: 258 (25th)
+
+24. – Silithid Husked Launcher, 2.8 speed
+Best cycle DPS: 496, Clipped
+Worst cycle DPS: 490, Full
+Auto Shot DPS: 263 (21st)
+
+25. – Bow of Taut Sinew, 2.2 speed
+Best cycle DPS: 496, Full
+Worst cycle DPS: 445, Clipped
+Auto Shot DPS: 272 (16th)
+
+26. – Grand Marshal’s Bullseye / High Warlord’s Recurve, 1.8 speed
+Best cycle DPS: 494, Full
+Worst cycle DPS: 470, Clipped
+Auto Shot DPS: 287 (5th)
+
+27. – Ancient Bone Bow, 2.8 speed
+Best cycle DPS: 490, Clipped
+Worst cycle DPS: 484, Full
+Auto Shot DPS: 259 (23rd)
+
+28. – Gryphonwing Longbow, 2.7 speed
+Best cycle DPS: 477, Full
+Worst cycle DPS: 473, Clipped
+Auto Shot DPS: 254 (27th)
+```
+
 ### Nature Resist Gear for AQ
 
 Most guilds will have hunters soak nature damage during the enrage phase of Princess Huhuran fight in AQ40.  We have Mark of the Wild which gives 60 nat resist to your party members and can FD for a quick costume change before the phase.  Hunters attempting AQ should prep nature resist sets.  The amount of NR required for hunters should come from your guild, but keeping in mind that soaking requires us to be in melee and we won't do much damage, I'm of the mind that hunters should cap as much nature resist as possible to help out the healers.
@@ -159,7 +307,3 @@ Most guilds will have hunters soak nature damage during the enrage phase of Prin
 - [125 NR](https://sixtyupgrades.com/set/nqsbx2qBpgr2m8oAqDxW3c)
 - [165 NR](https://sixtyupgrades.com/set/cYZprxcDzQNCZmVB9ArHu8)
 - [215 NR](https://sixtyupgrades.com/set/xatWTfdVrn8ThE1JhrtVpN)
-
-## Pets
-
-Pets can do a considerable percentage of a hunter's damage even if they are not Beast Mastery hunters.  All hunters should focus on keeping their pet alive (pet uptime).  Hunters raiding BWL and MC should take the following pet skills to maximize damage: max fire resist, max shadow resist, max dash, max claw, rest in stamina.
