@@ -1,4 +1,4 @@
-# Hunters: A Supplimentary Guide
+# Hunters: A Supplementary Guide
 
 This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 guide, nor a pre-BiS gear list, you should find those at [wowhead](https://classic.wowhead.com/guides/classic-wow-hunter-class-overview) or [icy veins](https://www.icy-veins.com/wow-classic/hunter-dps-pve-guide).  There is a lot of misinformation about hunters in Classic Wow--hopefully this document can give you the information you need to come to your own conclusions.  A few things to note before going further:
 - Sim(ulate): simming is the best way to get answers about your current situation.  The [hunter sim](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) should be treated as gospel and is made by people smarter than you or I.  If you have an issue with the sim (or a question):
@@ -6,24 +6,23 @@ This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 g
 
 
 ## Table of Contents
-- [Talents](#Talents)
-  - [Raid Viable MM Talents](#Raid-Viable-MM-Talents)
-- [Rotations](#Rotations)
-  - [Clipping](#Clipping)
-  - [Openers](#Openers)
-  - [Melee Weaving](#Melee-Weaving)
-- [Mechanics](#Mechanics)
-  - [Macros](#Macros)
-  - [Weak Auras](#Weak-Auras)
-- [Buffs](#Buffs)
-- [Gear](#Gear)
-  - [T2](#T2)
-  - [Rings](#Rings)
-  - [Nature Resist Gear for AQ](#Nature-Resist-Gear-for-AQ)
-  - [BiS gear by phase](https://gist.github.com/skinnay-dev/39f71f3cce1c64b95142f7e0e0d97bca)
-- [Pets](#Pets)
+- [Talents](#talents)
+  - [Raid Viable MM Talents](#raid-viable-mm-talents)
+- [Rotations](#rotations)
+  - [Clipping](#clipping)
+  - [Openers](#openers)
+  - [Melee Weaving](#melee-Weaving)
+- [Mechanics](#mechanics)
+  - [Macros](#macros)
+  - [Weak Auras](#weak-auras)
+- [Buffs](#buffs)
+- [Gear](#gear)
+  - [T2](#t2)
+  - [Rings](#rings)
+  - [Nature Resist Gear for AQ](#nature-resist-gear-for-aq)
+- [Pets](#pets)
 - Farming
-  - [Dire Maul Tribute](#Dire-Maul-Tribute)
+  - [Dire Maul Tribute](#dire-maul-tribute)
 
 
 
