@@ -90,9 +90,11 @@ If an effort the recreate the low tickrate feeling of vanilla WoW, Blizzard adde
 [This forum post](https://us.forums.blizzard.com/en/wow/t/classic-hunter-the-retry-timer/542470) gives a full explaination, but the TLDR is that a .5 second timer is started when an Auto Shot is attempted but cannot be performed.  This happens if you are moving, not in LoS of your target, out of range, or are casting a different spell (like Aimed Shot).  At the end of the .5 second retry timer, the server will check if you can perform your auto shot: if you can, it will send the attack, otherwise it will start the retry timer again.
 
 If you cast Aimed Shot normally, this causes a meaningful delay of the following Auto Shot since it attempts to Auto during your aimed and starts the retry timer:
+
 ![Bad Retry Timer](bad_retry.png)
 
 Casting Aimed Shot immediately after your auto, and stopping your Auto during your aimed dramatically tightens up your attacks:
+
 ![Retry Timer](retry.png)
 
 You don't (and shouldn't) have to do this manually.  The following macro will cast your Aimed Shot and stop the retry timer from adding a delay to your attacks:
