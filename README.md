@@ -17,6 +17,7 @@ This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 g
   - [Weak Auras](#weak-auras)
 - [Buffs](#buffs)
 - [Gear](#gear)
+  - [Ranged Weapons](#ranged-weapons)
   - [T2](#t2)
   - [Rings](#rings)
   - [Nature Resist Gear for AQ](#nature-resist-gear-for-aq)
@@ -31,9 +32,7 @@ This is a collection of resources for Classic WoW Hunters.  It is not a pre-60 g
 Trueshot Aura is king.  If you're in a raid which does not currently have TS in every melee group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to your 4 party members.
 <!-- If you were not previously aware, this might be the first indicator that hunters are really not a core damage class in classic-- we are a ranged support class which kites and tranqs ;). -->
 
-I would recommend [2/31/18](https://classicdb.ch/?talent#cbZViohthtI0rroh) if not hitcapped from gear (taking 3/3 Surefooted for the hit) or [17/31/3](https://classicdb.ch/?talent#cE000xbZViohthth) for some added pet damage if hitcapped.
-
-Points can be moved away from Improved Hunter's Mark if someone else in your raid has it-- or if your raid is debuff capped and not using it.
+I would recommend [2/31/18](https://classicdb.ch/?talent#cbZViohthtI0rroh) if not hitcapped from gear (taking 3/3 Surefooted for the hit) or [17/31/3](https://classicdb.ch/?talent#cE000xbZViohthth) for some added pet damage if hitcapped.  Points can be moved away from Improved Hunter's Mark if someone else in your raid has it-- or if your raid is debuff capped and not using it.
 
 Survival and Beast Mastery can do more damage than Marksman if invested into, at the cost of TS aura.  If you do not need to provide your raid with TS aura, consider other a talent spec other than MM.
 
@@ -54,15 +53,19 @@ Hunters can take a very viable PvP spec to raid.  After taking [31 in MM](https:
 
 ## Rotations
 
-With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.  The standard rotation is
+With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.
+
+You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown with an auto between them.  After 3 cycles you both Aimed and multishot wil come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your autoshot every time for a damage loss.
 
 ### Clipping
 
-WIP: don't clip (except sometimes).
+The math which is used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
+
+Clipping fast attack speed weapons yields a DPS boost but will drain mana faster.  See [Ranged Weapons](#ranged-weapons) for specifics of whether you should clip a given weapon. 
 
 ### Openers
 
-If your normal rotation is now just muscle memory and you happen upon some trinkets, its time to consider openers.  If you only have [Devilsaur Eye](https://classic.wowhead.com/item=19991/devilsaur-eye), then your opening should be to cast it with Rapid Fire _before_ your first Aimed Shot and then go about your rotation normally.
+If your normal rotation is now just muscle memory and you happen upon some trinkets, its time to consider openers.  If you only have [Devilsaur Eye](https://classic.wowhead.com/item=19991/devilsaur-eye), then use it with Rapid Fire _before_ your first Aimed Shot and then go about your rotation normally.
 
 If you do not yet have Devilsaur Eye and plan on getting exalted with Cenarian Circle, then you may want to consider getting [Devilsaur Tooth](https://classic.wowhead.com/item=19992/devilsaur-tooth) instead.  [Earthstrike](https://classic.wowhead.com/item=21180/earthstrike) is a phase 5 trinket from CC rep which outclasses Devilsaur Eye whereas Devilsaur Tooth is a BiS BM trinket into TBC.  That being said, hunters are capable of using as many trinkets as a fight's length allows via switching trinkets after Feign Death-- it is plausible that using both Devilsaur Eye and Earthstrike may be viable.
 
@@ -136,6 +139,8 @@ If nothing else, try to have [Elixir of the Mongoose](https://classic.wowhead.co
 [Simming](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) is the only way to answer the question of "should I wear X or Y?"  Gear guides can tell you what to pursue, but simming is the end all for making the best of what you have.  For ally hunters, Skinnay already has a [list of simmed gear sets](https://gist.github.com/skinnay-dev/39f71f3cce1c64b95142f7e0e0d97bca).
 
 Its notable that stat priorities change dramatically depending on your faction and rotation.  Alliance members will favor stats like Agi which are increased by kings and weavers will take notably worse weapons for ranged DPS so that their raptor strikes hit harder.
+
+### Ranged Weapons
 
 ### T2
 
