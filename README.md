@@ -114,15 +114,20 @@ You don't (and shouldn't) have to do this manually.  The following macro will ca
 
 WIP check [here](https://classicwow.live/guides/893/hunter-macros-tips); **NOTE, many of these macros do not have the cleartarget, targetlasttarget lines required to avoid auto shot delay.**  I'm working on going through them.
 
+<!-- https://pastebin.com/FzG7CtR0 Zeroji's -->
+
 ### Weak Auras
 
 Weak Auras (2) is an addon which adds customizable UI elements.  Hunters have a handful of very helpful WAs:
-- [Rubot's Range Check](https://wago.io/f6uD_aQRN) shows your range to a target.
-- [Smarnz's Improved Range Check](https://wago.io/-EGVBCgFU) is an improved version of the above.
+- [Smarnz's Improved Range Check](https://wago.io/-EGVBCgFU) shows your range to a target.
 - [Stokbaek's Castbar for Multi/Aimed with Pushback](
 https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should have at least one castbar/shot timer; this one is nice.
 - Optional, but [this WA](https://wago.io/oYIjS228K) shows your shot delays so that you can tighten your rotation.
 - [Weaving Timer Collection](https://wago.io/oBjregGjL) shows the timings of all components of your weave.
+- [Predictive Weave Bar](https://wago.io/K6nl2clmn) is insane.
+- [Tranq Shot Tracker](https://wago.io/GaRv7KK51/1) tracks tranq shots.
+- [Instance History](https://wago.io/OXlZupyKm/6) for tracking your instance lockouts.
+
 
 ## Buffs
 
