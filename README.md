@@ -197,7 +197,7 @@ Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often
 
 ### Nature Resist Gear for AQ
 
-Most guilds will have hunters soak nature damage during the enrage phase of Princess Huhuran fight in AQ40.  We have Mark of the Wild which gives 60 nat resist to your party members and can FD for a quick costume change before the phase.  Hunters attempting AQ should prep nature resist sets.  The amount of NR required for hunters should come from your guild, but keeping in mind that soaking requires us to be in melee and we won't do much damage, I'm of the mind that hunters should cap as much nature resist as possible to help out the healers.
+Most Ally guilds will have hunters soak nature damage during the enrage phase of Princess Huhuran fight in AQ40.  We have Aspect of the Wild which gives 60 nat resist to your party members and can FD for a quick costume change before the phase.  Hunters attempting AQ should prep nature resist sets.  The amount of NR required for hunters should come from your guild, but keeping in mind that soaking requires us to be in melee and we won't do much damage, I'm of the mind that hunters should cap as much nature resist as possible to help out the healers.
 
 - [125 NR](https://sixtyupgrades.com/set/nqsbx2qBpgr2m8oAqDxW3c)
 - [165 NR](https://sixtyupgrades.com/set/cYZprxcDzQNCZmVB9ArHu8)
