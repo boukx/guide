@@ -127,6 +127,7 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 - [Predictive Weave Bar](https://wago.io/K6nl2clmn) is insane.
 - [Tranq Shot Tracker](https://wago.io/GaRv7KK51/1) tracks tranq shots.
 - [Instance History](https://wago.io/OXlZupyKm/6) for tracking your instance lockouts.
+<!-- https://wago.io/FX0Q1REGv -->
 
 
 ## Buffs
