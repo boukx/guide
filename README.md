@@ -28,7 +28,7 @@ This is a collection of resources for Vanilla WoW Hunters.  It is not a pre-60 g
 - Farming
   - [Dire Maul Tribute](#dire-maul-tribute)
 
-## Addons, Weakauras, and Macros (oh my!)
+## Addons, Weakauras, and Macros
 
 Outside of Azeroth my work leans heavily on designing software to enable analysts to make good descisions; I change my UI very often from PvE optimized Elv setups to retro game RP themes to most recently a minimalist, Blizz-like PvP UI.
 
