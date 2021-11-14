@@ -8,7 +8,7 @@ This is a collection of resources for Vanilla WoW Hunters.  It is not a pre-60 g
 
 
 ## Table of Contents
-- [Addons, Weakauras, and Macros](#Addons,-Weakauras,-and-Macros)
+- [Addons, Weakauras, and Macros](#addons-weakauras-and-macros)
 - [Talents](#talents)
   - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
