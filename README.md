@@ -11,6 +11,7 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 - [Addons, Weakauras, and Macros](#addons-weakauras-and-macros)
   - [Macros](#macros) 
   - [Weakauras](#weakauras)
+  - [Trinket Swapping](#trinket-swapping)
 - [Talents](#talents)
   - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
@@ -213,11 +214,11 @@ Mouseover Raptor Strike/Melee is very useful for lots of free DPS.  This is also
 /targetlasttarget [noexists][dead]
 ```
 
-Mouseover stings are useless for mana drain, DoTing rogues, and blanketting a DoT if you need to trap
+Mouseover stings are useful for mana drain, DoTing rogues, and blanketting a DoT if you need to trap
 
 - `/cast [@mouseover,harm,nodead][] Viper Sting`
-- `/cast [@mouseover,harm,nodead][] Scorpid Sting`
 - `/cast [@mouseover,harm,nodead][] Serpent Sting`
+- `/cast [@mouseover,harm,nodead][] Scorpid Sting`
 
 Petattack mouseover is good to send pet to a target while you ranged another: `/petattack [@mouseover,harm,nodead]`
 
@@ -231,50 +232,15 @@ I include Raptor in a mouseover Wing Clip macro because I almost always want mor
 /startattack
 ```
 
-### Feign Death and Trinket Swap Macros
+### Feign Death
 
-I'll add a whole section for trinket swapping-- if you're not interested and just want an FD macro use the following one.  Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.
+Below is [an advanced section for trinket swapping](#trinket-swapping)-- if you're not interested and just want an FD macro use the following one.  Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.
 
 ```
 #showtooltip Feign Death
 /stopattack
 /petpassive
 /cast Feign Death [combat]
-```
-
-This is a Feign Death macro compatible with Trinket Swapping WA for feigning but not swapping:
-```
-#showtooltip Feign Death
-/stopattack
-/petpassive
-/script WeakAuras.ScanEvents("UNPREP_SWAP")
-/cast Feign Death
-```
-
-This is for feigning and swapping (remember to modify the last two lines for your bags):
-```
-#showtooltip Feign Death
-/petpassive
-/script WeakAuras.ScanEvents("PREP_SWAP")
-/use Renataki's Charm of Beasts
-/cast Feign Death
-/equipslot 13 3 17
-/equipslot 14 3 18
-```
-
-This is the macro I would use to swap out of T2.5 after snapshotting the Rapid Fire buff during Naxx:
-```
-/stopattack
-/petpassive
-/use Renataki's Charm of Beasts
-/cast Feign Death
-/equip Cryptstalker H
-/equip Cryptstalker S
-/equip Cryptstalker T
-/equip Cryptstalker L
-/equip Cryptstalker B
-/equip Band of R
-/equip Mark
 ```
 
 ### Weakauras
@@ -289,6 +255,104 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 - [Tranq Shot Tracker](https://wago.io/GaRv7KK51/1) tracks tranq shots.
 - [Instance History](https://wago.io/OXlZupyKm/6) for tracking your instance lockouts.
 <!-- https://wago.io/FX0Q1REGv -->
+
+
+### Trinket Swapping
+
+**WELCOME GAMER**
+
+A foreword.  Don't worry about this if you're not going whole fights without clipping or DPS downtime. Trinket swapping is a very marginal DPS increase _but it is fun as fuck._
+
+<!-- TODO add FD resist WA -->
+You will want to get a Feign Resist WA (TODO add link here). If you only have a single swap (e.g. Devilsaur to passive trinkets) then simply mash a macro like this:
+
+```
+#showtooltip Feign Death
+/stopattack
+/petpassive
+/cast Feign Death
+/equip 13 Royal Seal
+```
+
+If you have multiple swaps you'd like to do, carry on reading about the most cursed WA I've even had a hand in writing.
+
+#### Sillac's Autoswap 2: Electric Boukaloo
+
+This WA is a permanent beta.  Its been through a whole 2 phases of classic so its pretty tried and true at this point but we make 0 guarantees about anything.
+
+##### Background
+
+Itemrack allows you to queue trinkets to swap on the next combat drop.  Swapping via the Blizzard Addon API incurs a ~400 MS delay for some fucking reason.  In addition to that, the combat drop event is almost always delayed and so stock Itemrack swaps ~800-1000 MS slower than it should.
+
+An itemrack fix I wrote triggered the Blizzard API swap earlier, on the first frame that your inventory loses its combatlock (when the UNIT_AURA event corresponding to gaining FD is fired).  This sped swaps up by around ~200-400 MS by eliminating the combat drop delay but the swap delay still remained.
+
+A macro which uses /equipslot can theoretically be mashed to trigger the frame that combat drops. This incurs neither the combat drop delay nor the swap delay but these macro's are a pain since you need to bake a new one (or modifiers for one) for each trinket (/combination of trinket) you would like to swap.
+
+Sillac and I did a ton of troubleshooting and we wrote a WA to read Itemrack's queues to figure out the next swap and prep those items into specific inventory slots.   You mash a macro which FDs, and then attempts to equip the items in those slots via /equipslot 13 3 17 (which does not incur the swap delay).  When your trinket slots change the WA replaces the keybind to the macro you mashed with an Aimed Shot macro so that as you mash it--as soon as the swap goes off--you Aimed Shot.  When you press that aimed shot macro the WA swaps the keybind back to the FD swap for next time.
+
+The end use case is that you setup Itemrack queues (or manually queue items in combat), enter combat, use your trinket(s), and then just mash your keybind.  If you do not resist then mashing the keybind will cause you to cast Aimed the moment you first can.  You carry on the fight, using more trinkets if you like, and repeating swaps until your itemrack queues are configured to stop, the fight ends, or itemrack begins repeating trinkets as they come off CD.
+
+##### Setup
+
+_**If you skip any steps, I'm not helping you.**_
+
+1. Install itemrack (not my fix, just default version) and setup item queues according to how you want to rotate through your trinkets.  
+
+2. Create the following macro named `Feign Swap`:
+```
+#showtooltip Feign Death
+/petpassive
+/use Renataki's Charm of Beasts
+/script WeakAuras.ScanEvents("PREP_SWAP")
+/cast Feign Death
+/equipslot 13 <B> <S-1>
+/equipslot 14 <B> <S>
+```
+**Replace `<B>` with the bag slot of your last normal (non-quiver) bag.  If your quiver is in your forth bag slot, then use 3.  Replace `<S>` with the number of slots in that bag and `<S-1>` with the number of slots in that bag - 1.**
+For example, if you have an 18 slot bag in your 3rd slot and your quiver in your forth slot, then the last two lines of that macro would be:
+```
+/equipslot 13 3 17
+/equipslot 14 3 18
+```
+3. Create the following macro named `Swap Aimed`:
+```
+#showtooltip Aimed Shot
+/script WeakAuras.ScanEvents("SWAP_COMPLETE")
+/cast Aimed Shot
+```
+4. Add the following line to the beginning of any macro you use Feign Death in but do not want to swap items: `/script WeakAuras.ScanEvents("UNPREP_SWAP")`.  Do not use a macro-less FD binding.
+
+_4a. if you wish to use different macro names then you can, just configure them in the WA custom settings._ 
+
+5. Make sure none of your trinkets are in your backpack.  They all need to be in bags.  They do not need to be in any specific bag, but swapping to any trinkets in your backpack will incur a sizable delay.  Make sure you have at least 2 empty slots in your last bag.
+
+6. Place the `Feign Swap` macro onto your bars and bind it to whatever keybind you want to mash to swap and follow up with aimed.  _Do not bind `Swap Aimed`, do not slot `Feign Swap` into multiple action slots._
+
+7. _Install and pray?_
+
+##### HELP!?
+
+If you have any issues please post in the trinket-juggling channel of the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).  Please do not @ me, I read every message in that channel.
+
+#### Swapping Armor
+
+Is swapping your trinkets not enough for you?  Me neither.  Get all of t2.5 and then wear it into every fight RF is up, use RF, do your openner, then FD swap with this macro back to t3 to always get 2m RF reduction: 
+
+```
+/stopattack
+/petpassive
+/use Renataki's Charm of Beasts
+/cast Feign Death
+/equip Cryptstalker H
+/equip Cryptstalker S
+/equip Cryptstalker T
+/equip Cryptstalker L
+/equip Cryptstalker B
+/equip Band of R
+/equip Mark
+```
+
+You can also wear your T3 into with a Greater Frost Protection Potion pre-popped for your DPS cooldowns and then feign into frost resist gear.  _Your healers will -love- you for this._
 
 
 ## Talents
