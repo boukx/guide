@@ -1,6 +1,6 @@
 # Hunters: A ~~Supplementary Guide~~ Compendium
 
-This started as an eclectic collection of notes I made in phase 2 classic for newer hunters. Having left TBC and coming back to vanilla for Season of Mastery, I'm filling out the gaps so that hopefully this will quickstart your journey as a new hunter.
+This started as an eclectic collection of notes I made in phase 2 classic for newer hunters. With Season of Mastery starting soon, I'm filling out the gaps to hopefully make a smother journey for new hunters.
 
 Vanilla hunter is a broken, cursed monstrosity of bad design and poor planning; it's nearly my favorite MMO class ever.  I hope this guide gives you the information on its quirks and bugs needed to enjoy the class for its weirdness.  
 
@@ -10,6 +10,7 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 ## Table of Contents
 - [Addons, Weakauras, and Macros](#addons-weakauras-and-macros)
   - [Macros](#macros) 
+  - [Weakauras](#weak-auras)
 - [Talents](#talents)
   - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
@@ -17,8 +18,6 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
   - [Openers](#openers)
   - [Melee Weaving](#melee-Weaving)
 - [Mechanics](#mechanics)
-  - [Macros](#macros)
-  - [Weak Auras](#weak-auras)
 - [Buffs](#buffs)
 - [Pets](#pets)
 - [Gear](#gear)
@@ -92,7 +91,7 @@ This section is about addons which help you optimize your gameplay a bit more.  
 
 ## Macros
 
-Auto shot macro:
+Spammable, target finding auto shot macro:
 ```
 #showtooltip
 /cleartarget [dead]
@@ -101,7 +100,7 @@ Auto shot macro:
 /cast !Auto Shot
 ```
 
-Auto shot with petattack and dash/dive (may have to change pet types):
+Spammable, target finding auto shot with petattack and dash/dive:
 ```
 #showtooltip
 /cleartarget [dead]
@@ -113,7 +112,7 @@ Auto shot with petattack and dash/dive (may have to change pet types):
 ```
 I'd bind both and use them situationally.  Not having a keybind to attack without pet will hurt you down the line. 
 
-**Not a macro, but bind petpassive to an easily accessible key.**  Its the seal icon on your pet bar and hitting it even while the pet is already in that setting calls it back to you or its petstay spot.  you will regret not having this the first, second, and third time you pet is sprinting towards a raid boss before anyone is ready.
+Not a macro, but **bind petpassive to an easily accessible key.**  Its the seal icon on your pet bar and hitting it even while the pet is already in that setting calls it back to you or its petstay spot.  You will regret not having this the first, second, and third time you pet is sprinting towards a raid boss before anyone is ready.
 
 Reasonable pet care macro which will Call/Revive/Mend pet without any modifiers.
 ```
@@ -124,7 +123,7 @@ Reasonable pet care macro which will Call/Revive/Mend pet without any modifiers.
 /castsequence reset=2 Call Pet, Revive Pet
 ```
 
-Bind your Aspect of the Cheetah like this allows you to hit it again to cancel.  Using spellbook Cheetah doesn't let you cancel during your GCD.  You should do the same with Aspect of the Pack.
+Binding your Aspect of the Cheetah like this allows you to hit it again to cancel.  Using spellbook Cheetah doesn't let you cancel during your GCD.  You should do the same with Aspect of the Pack.
 ```
 #showtooltip
 /cancelaura Aspect of the Cheetah
@@ -141,10 +140,7 @@ Eagle Eye chaining macro lets you recast Eagle Eye from your current spot:
 /cast !Eagle Eye
 ```
 
-
-
-
-Eat/Drink/Prowl/Shadowmeld for Night elfs:
+Eat/Drink/Prowl/Shadowmeld:
 ```
 #showtooltip
 /use Alterac Manna Biscuit
@@ -156,12 +152,11 @@ Eat/Drink/Prowl/Shadowmeld for Night elfs:
 /cast [mod:alt] !Prowl
 ```
 
-Adding flag dropping into your mount macro is good if you do any PvP (can omit the mods and flying mount if classic)
+Adding flag dropping into your mount macro is good if you do any PvP
 ```
 #showtooltip Swift Green Gryphon
 /cancelaura Horde Flag
-/cast [flyable] Swift Green Gryphon
-/cast [noflyable] Reins of the Swift Mistsaber
+/cast Reins of the Swift Mistsaber
 ```
 
 Use top trinket and RF (add Berseking if Troll):
@@ -171,7 +166,7 @@ Use top trinket and RF (add Berseking if Troll):
 /use 13
 ```
 
-Using items (rocket boots, parachute cloak, etc; replace X with 1 for helm, 8 for boots, 13 for trinket 1, 14 for trinket 2, 15 for cloak, 16 for main hand weapon:
+Using items (rocket boots, parachute cloak, etc)  Replace X with 1 for helm, 8 for boots, 13 for trinket 1, 14 for trinket 2, 15 for cloak, 16 for main hand weapon:
 ```
 #showtooltip
 /use X
@@ -179,9 +174,9 @@ Using items (rocket boots, parachute cloak, etc; replace X with 1 for helm, 8 fo
 
 ### Mouseover
 
-What people bind as mouseover macros is pretty subjective.  I'm going to list all of mine in order of most popular to sorta niche things to mouseover.  I always use the syntax `[@mouseover,harm,nodead][]` which will use the mouseover target if it is hostile and not dead, otherwise cast at your target; remove `[]` if you don't want that fallback condition.
-
 Sorta a mouseover, this fires Flare at your cursor: `/cast [@cursor] Flare`
+
+What people bind as mouseover macros is pretty subjective.  I'm going to list all of mine in order of most popular to sorta niche things to mouseover.  I always use the syntax `[@mouseover,harm,nodead][]` which will use the mouseover target if it is hostile and not dead, otherwise cast at your target; remove `[]` if you don't want that fallback condition.
 
 Highly recommend mouseover Scatter Shot
 ```
@@ -191,7 +186,7 @@ Highly recommend mouseover Scatter Shot
 /cast  [@mouseover,harm,nodead][] Scatter Shot
 ```
 
-I put Naxx totem stopping into my mouseover HM but I'm not sure that this'll work in SoM
+I put Naxx totem stopping into my mouseover HM but I'm not sure whether this will work in SoM
 ```
 #showtooltip Hunter's Mark
 /cleartarget
@@ -279,6 +274,20 @@ This is the macro I would use to swap out of T2.5 after snapshotting the Rapid F
 /equip Mark
 ```
 
+### Weakauras
+
+This is an unorganize list of Weakauras I like or use:
+- [Smarnz's Improved Range Check](https://wago.io/-EGVBCgFU) shows your range to a target.
+- [Stokbaek's Castbar for Multi/Aimed with Pushback](
+https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should have at least one castbar/shot timer; this one is nice.
+- Optional, but [this WA](https://wago.io/oYIjS228K) shows your shot delays so that you can tighten your rotation.
+- [Weaving Timer Collection](https://wago.io/oBjregGjL) shows the timings of all components of your weave.
+- [Predictive Weave Bar](https://wago.io/K6nl2clmn) is insane.
+- [Tranq Shot Tracker](https://wago.io/GaRv7KK51/1) tracks tranq shots.
+- [Instance History](https://wago.io/OXlZupyKm/6) for tracking your instance lockouts.
+<!-- https://wago.io/FX0Q1REGv -->
+
+
 ## Talents
 
 Trueshot Aura is king.  If you're in a raid which does not currently have TS in every physical group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to you and your 4 party members.
@@ -355,20 +364,6 @@ Casting Aimed Shot immediately after your auto, and stopping your Auto during yo
 ![Retry Timer](retry.png)
 
 You don't (and shouldn't) have to do this manually.  The following macro will cast your Aimed Shot and stop the retry timer from adding a delay to your attacks:
-
-### Weak Auras
-
-Weak Auras (2) is an addon which adds customizable UI elements.  Hunters have a handful of very helpful WAs:
-- [Smarnz's Improved Range Check](https://wago.io/-EGVBCgFU) shows your range to a target.
-- [Stokbaek's Castbar for Multi/Aimed with Pushback](
-https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should have at least one castbar/shot timer; this one is nice.
-- Optional, but [this WA](https://wago.io/oYIjS228K) shows your shot delays so that you can tighten your rotation.
-- [Weaving Timer Collection](https://wago.io/oBjregGjL) shows the timings of all components of your weave.
-- [Predictive Weave Bar](https://wago.io/K6nl2clmn) is insane.
-- [Tranq Shot Tracker](https://wago.io/GaRv7KK51/1) tracks tranq shots.
-- [Instance History](https://wago.io/OXlZupyKm/6) for tracking your instance lockouts.
-<!-- https://wago.io/FX0Q1REGv -->
-
 
 ## Buffs
 
