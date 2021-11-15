@@ -1,8 +1,10 @@
-# Hunters: A Supplementary Guide
+# Hunters: A ~~Supplementary Guide~~ Compendium
 
-<!-- https://docs.google.com/spreadsheets/d/1CxvTaIwcvNtzU7bXg2b-gDHeDeUVQeJAp4YqL_HBjvE/htmlview -->
+This started as an eclectic collection of notes I made in phase 2 classic for newer hunters. Having left TBC and coming back to vanilla for Season of Mastery, I'm filling out the gaps so that hopefully this will quickstart your journey as a new hunter.
 
-This is a collection of resources for Vanilla WoW Hunters.  It is not a pre-60 guide, nor a pre-BiS gear list, you should find those at [wowhead](https://classic.wowhead.com/guides/classic-wow-hunter-class-overview) or [icy veins](https://www.icy-veins.com/wow-classic/hunter-dps-pve-guide).  There is a lot of misinformation about hunters in Classic Wow--hopefully this document can give you the information you need to come to your own conclusions.  If you have any questions, feel free to ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
+Vanilla hunter is a broken, cursed monstrosity of bad design and poor planning; it's nearly my favorite MMO class ever.  I hope this guide gives you the information on its quirks and bugs needed to enjoy the class for its weirdness.  
+
+As always, if you have any questions please ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
 
 
 ## Table of Contents
@@ -111,7 +113,7 @@ Auto shot with petattack and dash/dive (may have to change pet types):
 ```
 I'd bind both and use them situationally.  Not having a keybind to attack without pet will hurt you down the line. 
 
-**Not a macro, but bind petpassive to an easily accessible key.**  Its the seal icon on your pet bar and hitting it even while the pet is already in that setting calls it back to you or its petstay spot.
+**Not a macro, but bind petpassive to an easily accessible key.**  Its the seal icon on your pet bar and hitting it even while the pet is already in that setting calls it back to you or its petstay spot.  you will regret not having this the first, second, and third time you pet is sprinting towards a raid boss before anyone is ready.
 
 Reasonable pet care macro which will Call/Revive/Mend pet without any modifiers.
 ```
@@ -279,24 +281,27 @@ This is the macro I would use to swap out of T2.5 after snapshotting the Rapid F
 
 ## Talents
 
-Trueshot Aura is king.  If you're in a raid which does not currently have TS in every melee group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to your 4 party members.
+Trueshot Aura is king.  If you're in a raid which does not currently have TS in every physical group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to you and your 4 party members.
 <!-- If you were not previously aware, this might be the first indicator that hunters are really not a core damage class in classic-- we are a ranged support class which kites and tranqs ;). -->
 
-I would recommend [2/31/18](https://classicdb.ch/?talent#cbZViohthtI0rroh) if not hitcapped from gear (taking 3/3 Surefooted for the hit) or [17/31/3](https://classicdb.ch/?talent#cE000xbZViohthth) for some added pet damage if hitcapped.  Points can be moved away from Improved Hunter's Mark if someone else in your raid has it-- or if your raid is debuff capped and not using it.
+The default spec is [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) where slaying applies.  Moving into AQ, all bosses are uncategorized so drop the 3 points in Survival for 3 more points in Ferocity. Points can be moved away from Improved Hunter's Mark if someone else in your raid has it.
 
-### Raid Viable PvP Talents
+You should seek 9% hit from armor/scope first-- but if you absolutely cannot get the hit from items (e.g. are very early in a season) then you can talent down SV into Surefooted.  **I have not confirmed this but rumor is you should only deviate from the normal [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) build to go SF if you have less than 40% pet uptime on bosses.**
 
-Hunters can take a very viable PvP/MM spec to raid.  After taking [31 in MM](https://classicdb.ch/?talent#cZgVohtht), you can put points into Improved Aspect of the Hawk for some ranged DPS haste.  If you want to skew harder to PvP, skip that and go straight to the survival tree.
+5/31/15 and 0/31/20 are popular PvP/PvE viable specs.  You'll take a small PvE damage hit for lots of really fun talents.  Improved Aspect of the Hawk is a fairly strong DPS buff (even in PvP) so only drop this if you really want to lean into PvP.
 
-- Monster Slaying and Humanoid Slaying are clear choices for BWL and PvP respectively.  
-- Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick._  It can cause some weird aggro glitches and mess with pulls like the Goblin Technicians in BWL.
+At that point, you could just respec and go Scatter Shot / LR spec though so /shrug.
+
+### Misc Notes on SV talents
+
+- Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick and **does not DR.**_  It can cause some weird aggro issues when mobs with 0 threat are pulled through, though.
 - Savage Strikes is mandatory for melee weaving in raids and helps make quick work of anyone in melee range.  
-- Improved Wing Clip is strongest in a duel setting.
+- Improved Wing Clip is almost always a worse choice than entrapment.
 - Clever Traps synergizes strongly with Entrapment.
-- Survivalist could be good in duels but doesn't offer as much as the other talents in this tree.
-- Deterrence is an incredible PvP cooldown for 1 talent point.  Do not cast this when duelling a warrior.
-- Trap Mastery is good.
-- Surefooted is mandatory if you are not hitcapped.  The CC resist chance is also nice for PvP.
+- Survivalist is slept on; 10% max health -after- buffs and consumes is very cozy.
+- Deterrence is an incredible PvP cooldown for 1 talent point.  Be careful casting this when duelling a warrior.
+- 1 point in Trap Mastery maxes its usefulness in PvP.
+- The best part of Surefooted is the CC resist chance.
 - Improved FD is good for [Dire Maul Tribute](#Dire-Maul-Tribute) runs and avoiding FD resists on bosses if you are performing active trinket [openers](#Openers).  Do not take this if you are not doing either of those.
 
 ## Rotations
@@ -315,8 +320,6 @@ Clipping fast attack speed weapons yields a DPS boost but will drain mana faster
 
 If your normal rotation is now just muscle memory and you happen upon some trinkets, its time to consider openers.  If you only have [Devilsaur Eye](https://classic.wowhead.com/item=19991/devilsaur-eye), then use it with Rapid Fire _before_ your first Aimed Shot and then go about your rotation normally.
 
-If you do not yet have Devilsaur Eye and plan on getting exalted with Cenarian Circle, then you may want to consider getting [Devilsaur Tooth](https://classic.wowhead.com/item=19992/devilsaur-tooth) instead.  [Earthstrike](https://classic.wowhead.com/item=21180/earthstrike) is a phase 5 trinket from CC rep which outclasses Devilsaur Eye whereas Devilsaur Tooth is a BiS BM trinket into TBC.  That being said, hunters are capable of using as many trinkets as a fight's length allows via switching trinkets after Feign Death-- it is plausible that using both Devilsaur Eye and Earthstrike may be viable.
-
 #### Renataki's and Devilsaur Eye
 
 The optimal opening for [Renataki's Charm of Beasts](https://classic.wowhead.com/item=19953/renatakis-charm-of-beasts), [Devilsaur Eye](https://classic.wowhead.com/item=19991/devilsaur-eye), and Rapid Fire is as follows:
@@ -328,6 +331,8 @@ The optimal opening for [Renataki's Charm of Beasts](https://classic.wowhead.com
 Using DE puts Renataki's on a 20s CD.  We delay using Rapid Fire so that it hastes 3 Aimed Shot (from the Rena reset). There is a 3 second timer after FD in which you cannot Auto Shot.  Because of this, if you FD and cast Aimed Shot after it and the Aimed Shot is hasted, you should cast Multishot immediately following it since you still won't be able to Auto.
 
 *[This information, along with a useful macro, comes from Skinnay.](https://gist.github.com/skinnay-dev/0ce6448cc5f9e74336a096eb60708a99)*
+
+# WIP ANYTHING PAST HERE IS OUTDATED
 
 ### Melee-Weaving
 
@@ -350,19 +355,6 @@ Casting Aimed Shot immediately after your auto, and stopping your Auto during yo
 ![Retry Timer](retry.png)
 
 You don't (and shouldn't) have to do this manually.  The following macro will cast your Aimed Shot and stop the retry timer from adding a delay to your attacks:
-
-```
-#showtooltip
-/cast Aimed Shot
-/cleartarget
-/targetlasttarget
-```
-
-### Macros
-
-WIP check [here](https://classicwow.live/guides/893/hunter-macros-tips); **NOTE, many of these macros do not have the cleartarget, targetlasttarget lines required to avoid auto shot delay.**  I'm working on going through them.
-
-<!-- https://pastebin.com/FzG7CtR0 Zeroji's -->
 
 ### Weak Auras
 
