@@ -278,6 +278,8 @@ If you have multiple swaps you'd like to do, carry on reading about the most cur
 
 #### Sillac's Autoswap 2: Electric Boukaloo
 
+[https://wago.io/nWC_RLfn0]()
+
 This WA is a permanent beta.  Its been through a whole 2 phases of classic so its pretty tried and true at this point but we make 0 guarantees about anything.
 
 ##### Background
