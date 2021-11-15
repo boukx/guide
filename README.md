@@ -1,6 +1,6 @@
 # Hunters: A ~~Supplementary Guide~~ Compendium
 
-This started as an eclectic collection of notes I made in phase 2 classic for newer hunters. With Season of Mastery starting soon, I'm filling out the gaps to hopefully make a smother journey for new hunters.
+This started as an eclectic collection of notes I made in phase 2 classic for newer hunters. With Season of Mastery starting soon, I'm filling out the gaps to hopefully make a smoother journey for new hunters.
 
 Vanilla hunter is a broken, cursed monstrosity of bad design and poor planning; it's nearly my favorite MMO class ever.  I hope this guide gives you the information on its quirks and bugs needed to enjoy the class for its weirdness.  
 
@@ -17,8 +17,6 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 - [Rotations](#rotations)
   - [Clipping](#clipping)
   - [Openers](#openers)
-  - [Melee Weaving](#melee-Weaving)
-- [Mechanics](#mechanics)
 - [Buffs](#buffs)
 - [Pets](#pets)
 - [Gear](#gear)
@@ -271,7 +269,7 @@ You will want to get a Feign Resist WA (TODO add link here). If you only have a 
 /stopattack
 /petpassive
 /cast Feign Death
-/equip 13 Royal Seal
+/equip Royal Seal
 ```
 
 If you have multiple swaps you'd like to do, carry on reading about the most cursed WA I've even had a hand in writing.
@@ -356,6 +354,23 @@ Is swapping your trinkets not enough for you?  Me neither.  Get all of t2.5 and 
 
 You can also wear your T3 into with a Greater Frost Protection Potion pre-popped for your DPS cooldowns and then feign into frost resist gear.  _Your healers will -love- you for this._
 
+##### Advanced Advanced Math Section
+
+There is a weird flowchart about whether you should actually Aimed Shot out of your FD swaps.  _The optimization here is in the order of fractions of DPS over even incredibly short fights._  This is basically an esoteric optimization for people consistently 100 parsing.  But I like math and optimizing and esoteric things so I'm putting this here and its my guide so you can't stop me c:
+
+_**Should I aimed or auto out of FD?**_
+
+- If you weave or are using Ren's, aimed shot out of FD.
+- If you are doing a ranged rotation, auto out of FD when unhasted.
+- If you are doing a ranged rotation, you are hasted, and MS CD is up, aimed and clip your next auto with MS (`FD, aimed, ms, auto`). 
+- If you are doing a ranged rotation, you are hasted, and MS is on CD, I honestly have no idea.
+
+
+Considering only the ranged rotation where you have gaps in between your autos: the mechanics of FD are that if you FD, a timer starts = to the length of an unhasted autoshot with your current weapon (- .5s for cast time).  If at any point you autoshot and do nothing else while laying in FD, then you will cast an auto as soon as that timer is up (1 unhasted auto after you STARTED FD).
+
+If you do anything else out of FD (move or cast a non-auto) the timer is reset.
+
+So if you FD and then auto, you delay your rotation by the difference between an unhasted and a hasted auto (3.4 - 2.9 = .5 for Xbow).  If you FD and then aimed you delay your rotation by-- the time it takes between casting FD and combat drop + trinket swap + the difference between an unhasted auto and aimed shot (~.3 + .5).  Its tricky though-- because this depends on your rotation and when you want to FD.
 
 ## Talents
 
@@ -364,7 +379,7 @@ Trueshot Aura is king.  If you're in a raid which does not currently have TS in 
 
 The default spec is [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) where slaying applies.  Moving into AQ, all bosses are uncategorized so drop the 3 points in Survival for 3 more points in Ferocity. Points can be moved away from Improved Hunter's Mark if someone else in your raid has it.
 
-You should seek 9% hit from armor/scope first-- but if you absolutely cannot get the hit from items (e.g. are very early in a season) then you can talent down SV into Surefooted.  **I have not confirmed this but rumor is you should only deviate from the normal [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) build to go SF if you have less than 40% pet uptime on bosses.**
+You should seek 9% hit from armor/scope first-- but if you absolutely cannot get the hit from items (e.g. are very early in a season) then you can talent down SV into Surefooted.  **I have not confirmed this but colloquial advice is you should only deviate from the normal [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) build to go Surefooted if you have less than 40% pet uptime on bosses.**
 
 5/31/15 and 0/31/20 are popular PvP/PvE viable specs.  You'll take a small PvE damage hit for lots of really fun talents.  Improved Aspect of the Hawk is a fairly strong DPS buff (even in PvP) so only drop this if you really want to lean into PvP.
 
@@ -410,30 +425,6 @@ Using DE puts Renataki's on a 20s CD.  We delay using Rapid Fire so that it hast
 
 *[This information, along with a useful macro, comes from Skinnay.](https://gist.github.com/skinnay-dev/0ce6448cc5f9e74336a096eb60708a99)*
 
-# WIP ANYTHING PAST HERE IS OUTDATED
-
-### Melee-Weaving
-
-WIP: go [here](https://classicwow.live/guides/1914/raptor-strike-and-you-a-detailed-analysis-and-guide-to-melee-weaving) for now.
-
-## Mechanics
-
-If an effort the recreate the low tickrate feeling of vanilla WoW, Blizzard added two mechanics which effectively delay hunters' attacks: spell batching is well defined by a number of resources and affects hunters; the retry timer is unique to ranged attacks and has an immense impact on hunter mechanics and macros.
-
-### Retry Timer
-
-[This forum post](https://us.forums.blizzard.com/en/wow/t/classic-hunter-the-retry-timer/542470) gives a full explaination, but the TLDR is that a .5 second timer is started when an Auto Shot is attempted but cannot be performed.  This happens if you are moving, not in LoS of your target, out of range, or are casting a different spell (like Aimed Shot).  At the end of the .5 second retry timer, the server will check if you can perform your auto shot: if you can, it will send the attack, otherwise it will start the retry timer again.
-
-If you cast Aimed Shot normally, this causes a meaningful delay of the following Auto Shot since it attempts to Auto during your aimed and starts the retry timer:
-
-![Bad Retry Timer](bad_retry.png)
-
-Casting Aimed Shot immediately after your auto, and stopping your Auto during your aimed dramatically tightens up your attacks:
-
-![Retry Timer](retry.png)
-
-You don't (and shouldn't) have to do this manually.  The following macro will cast your Aimed Shot and stop the retry timer from adding a delay to your attacks:
-
 ## Buffs
 
 Hunters get the short end of the buff stick.  Dire Maul Tribute's [Fengus' Ferocity](https://classic.wowhead.com/spell=22817/fengus-ferocity) is only melee AP.  Battle Chicken's [squak](https://classic.wowhead.com/spell=23060/battle-squawk) is only melee attack speed.  These buffs are only useful if you are melee weaving.  Hell, even the AP component of [Rallying Cry of the Dragonslayer](https://classic.wowhead.com/spell=22888/rallying-cry-of-the-dragonslayer) is only melee (luckily the crit does affect ranged attacks).
@@ -453,17 +444,11 @@ Pets can do a considerable percentage of a hunter's damage even if they are not 
 
 [Simming](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) is the only way to answer the question of "should I wear X or Y?"  Gear guides can tell you what to pursue, but simming is the end all for making the best of what you have.  For ally hunters, Skinnay already has a [list of simmed gear sets](https://gist.github.com/skinnay-dev/39f71f3cce1c64b95142f7e0e0d97bca).
 
-Its notable that stat priorities change dramatically depending on your faction and rotation.  Alliance members will favor stats like Agi which are increased by kings and weavers will take notably worse weapons for ranged DPS so that their raptor strikes hit harder.
+Its notable that stat priorities change depending on your faction and rotation.  Alliance members will favor stats like Agi which are increased by kings and weavers will take notably worse weapons for ranged DPS so that their raptor strikes hit harder.
 
 ### T2
 
-The T2 8 piece set bonus debuff has a proc rate of .5 ppm.  It takes up a debuff slot per proc; [if multiple procs overlap, it takes up multiple debuff slots.](https://classic.warcraftlogs.com/reports/zw8FcCnL19qxjhmR#hostility=1&type=auras&spells=debuffs&ability=23577&source=100&fight=last)  Each hunter wearing T2 in a raid slightly increases every other hunters DPS.
-
-### Rings
-
-![Rings](https://cdn.discordapp.com/attachments/253944545429946369/711895531814912060/unknown.png)
-
-TLDR: rings without hit are better than rings with hit.  If you can afford to drop hit from your ring, probably do it.  Sim is still the best way to tell.
+The T2 8 piece set bonus debuff has a proc rate of .5 ppm.  It takes up a debuff slot per proc; [if multiple procs overlap, it takes up multiple debuff slots.](https://classic.warcraftlogs.com/reports/zw8FcCnL19qxjhmR#hostility=1&type=auras&spells=debuffs&ability=23577&source=100&fight=last) though this doesn't matter in SoM. Each hunter wearing T2 in a raid slightly increases every other hunters DPS.
 
 ### Ranged Weapons
 
@@ -499,11 +484,3 @@ Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often
 | Grand Marshal’s Bullseye / High Warlord’s Recurve | 1.8 | 494, Full | 470, Clipped | 287 (5th) |
 | Ancient Bone Bow | 2.8 | 490, Clipped | 484, Full | 259 (23rd) |
 | Gryphonwing Longbow | 2.7 | 477, Full | 473, Clipped | 254 (27th) |
-
-### Nature Resist Gear for AQ
-
-Most Ally guilds will have hunters soak nature damage during the enrage phase of Princess Huhuran fight in AQ40.  We have Aspect of the Wild which gives 60 nat resist to your party members and can FD for a quick costume change before the phase.  Hunters attempting AQ should prep nature resist sets.  The amount of NR required for hunters should come from your guild, but keeping in mind that soaking requires us to be in melee and we won't do much damage, I'm of the mind that hunters should cap as much nature resist as possible to help out the healers.
-
-- [125 NR](https://sixtyupgrades.com/set/nqsbx2qBpgr2m8oAqDxW3c)
-- [165 NR](https://sixtyupgrades.com/set/cYZprxcDzQNCZmVB9ArHu8)
-- [215 NR](https://sixtyupgrades.com/set/xatWTfdVrn8ThE1JhrtVpN)
