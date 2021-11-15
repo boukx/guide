@@ -21,9 +21,7 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 - [Pets](#pets)
 - [Gear](#gear)
   - [T2](#t2)
-  - [Rings](#rings)
   - [Ranged Weapons](#ranged-weapons)
-  - [Nature Resist Gear for AQ](#nature-resist-gear-for-aq)
 - Farming
   - [Dire Maul Tribute](#dire-maul-tribute)
 
@@ -428,6 +426,8 @@ The optimal opening for [Renataki's Charm of Beasts](https://classic.wowhead.com
 Using DE puts Renataki's on a 20s CD.  We delay using Rapid Fire so that it hastes 3 Aimed Shot (from the Rena reset). There is a 3 second timer after FD in which you cannot Auto Shot.  Because of this, if you FD and cast Aimed Shot after it and the Aimed Shot is hasted, you should cast Multishot immediately following it since you still won't be able to Auto.
 
 *[This information, along with a useful macro, comes from Skinnay.](https://gist.github.com/skinnay-dev/0ce6448cc5f9e74336a096eb60708a99)*
+
+# WIP beyond this point, some infos outdated
 
 # Buffs
 
