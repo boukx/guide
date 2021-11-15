@@ -90,7 +90,6 @@ This section is about addons which help you optimize your gameplay a bit more.  
 
 ## Macros
 
-**READ ME PLEASE**  
 If you have read other classic addon guides you may have heard of a required Aimed Shot macro for avoiding the retry timer; this was fixed late in classic and remains fixed in Season of Mastery.  You can use Aimed Shot in macros if you'd like, but you do not need a macro to just cast Aimed Shot, you can use the spell from your spell book with no issues.
 
 Spammable, target finding auto shot macro:
@@ -257,12 +256,15 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 
 ### Trinket Swapping
 
-**WELCOME GAMER**
+**WELCOME GAMER, two forewords**
 
-A foreword.  Don't worry about this if you're not going whole fights without clipping or DPS downtime. Trinket swapping is a very marginal DPS increase _but it is fun as fuck._
+Don't worry about this if you're not going whole fights without clipping or DPS downtime. Trinket swapping is a very marginal DPS increase _but it is fun as fuck._
 
-<!-- TODO add FD resist WA -->
-You will want to get a Feign Resist WA (TODO add link here). If you only have a single swap (e.g. Devilsaur to passive trinkets) then simply mash a macro like this:
+Feign Death has a 17% resist chance on mobs 3 levels above you.  It has a 4% chance to resist on mobs your level.  Spells always have a 1% resist chance.  This is why hunters will often run 3% spell hit to lower their resist chance against 60s in Diremaul North to that 1%.  However, it is never a DPS gain to wear spellhit or take Improved Feign Death against a boss; even at 17% chance, FD resists are a very minor DPS loss against bosses and that loss is outweighed significantly by the DPS gain of successful swaps.  If a single mob in combat with you resists, you will be unable to swap.  This means that you will have far more swap fails on fights with many adds.  Additionally, some fights like Patchwerk have environmental hazards (the slimes down the hall) that are technically mobs that can resist your Feign making swapping incredibly frustrating.  Use your best judgement but if it helps-- I swapped every fight of classic except for Patchwerk because the DPS loss of a resist is really just very small.
+
+You will want to get a Feign Resist WA so that you can recover from a resist and resume DPSing as fast as possible (TODO add link here). 
+
+If you only have a single swap (e.g. Devilsaur to passive trinkets) then simply mash a macro like this:
 
 ```
 #showtooltip Feign Death
