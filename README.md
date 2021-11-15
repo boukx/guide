@@ -10,7 +10,7 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 ## Table of Contents
 - [Addons, Weakauras, and Macros](#addons-weakauras-and-macros)
   - [Macros](#macros) 
-  - [Weakauras](#weak-auras)
+  - [Weakauras](#weakauras)
 - [Talents](#talents)
   - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
