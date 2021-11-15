@@ -27,7 +27,7 @@ As always, if you have any questions please ask in the [Classic WoW Hunter Disco
 - Farming
   - [Dire Maul Tribute](#dire-maul-tribute)
 
-## Addons, Weakauras, and Macros
+# Addons, Weakauras, and Macros
 
 Outside of Azeroth my work leans heavily on designing software to enable analysts to make good descisions; I change my UI very often from PvE optimized Elv setups to retro game RP themes to most recently a minimalist, Blizz-like PvP UI.
 
@@ -254,7 +254,7 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 <!-- https://wago.io/FX0Q1REGv -->
 
 
-### Trinket Swapping
+## Trinket Swapping
 
 **WELCOME GAMER, two forewords**
 
@@ -276,13 +276,13 @@ If you only have a single swap (e.g. Devilsaur to passive trinkets) then simply 
 
 If you have multiple swaps you'd like to do, carry on reading about the most cursed WA I've even had a hand in writing.
 
-#### Sillac's Autoswap 2: Electric Boukaloo
+### Sillac's Autoswap 2: Electric Boukaloo
 
 [https://wago.io/nWC_RLfn0]()
 
 This WA is a permanent beta.  Its been through a whole 2 phases of classic so its pretty tried and true at this point but we make 0 guarantees about anything.
 
-##### Background
+#### Background
 
 Itemrack allows you to queue trinkets to swap on the next combat drop.  Swapping via the Blizzard Addon API incurs a ~400 MS delay for some fucking reason.  In addition to that, the combat drop event is almost always delayed and so stock Itemrack swaps ~800-1000 MS slower than it should.
 
@@ -294,7 +294,7 @@ Sillac and I did a ton of troubleshooting and we wrote a WA to read Itemrack's q
 
 The end use case is that you setup Itemrack queues (or manually queue items in combat), enter combat, use your trinket(s), and then just mash your keybind.  If you do not resist then mashing the keybind will cause you to cast Aimed the moment you first can.  You carry on the fight, using more trinkets if you like, and repeating swaps until your itemrack queues are configured to stop, the fight ends, or itemrack begins repeating trinkets as they come off CD.
 
-##### Setup
+#### Setup
 
 _**If you skip any steps, I'm not helping you.**_
 
@@ -332,11 +332,11 @@ _4a. if you wish to use different macro names then you can, just configure them 
 
 7. _Install and pray?_
 
-##### HELP!?
+#### HELP!?
 
 If you have any issues please post in the trinket-juggling channel of the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).  Please do not @ me, I read every message in that channel.
 
-#### Swapping Armor
+### Swapping Armor
 
 Is swapping your trinkets not enough for you?  Me neither.  Get all of t2.5 and then wear it into every fight RF is up, use RF, do your openner, then FD swap with this macro back to t3 to always get 2m RF reduction: 
 
@@ -356,7 +356,9 @@ Is swapping your trinkets not enough for you?  Me neither.  Get all of t2.5 and 
 
 You can also wear your T3 into with a Greater Frost Protection Potion pre-popped for your DPS cooldowns and then feign into frost resist gear.  _Your healers will -love- you for this._
 
-##### Advanced Advanced Math Section
+Swapping into Rocket Helm for KT add phase is actually very helpful for CCing a fourth add while your team burns KT down.
+
+#### Advanced Advanced Math Section
 
 There is a weird flowchart about whether you should actually Aimed Shot out of your FD swaps.  _The optimization here is in the order of fractions of DPS over even incredibly short fights._  This is basically an esoteric optimization for people consistently 100 parsing.  But I like math and optimizing and esoteric things so I'm putting this here and its my guide so you can't stop me c:
 
@@ -374,7 +376,7 @@ If you do anything else out of FD (move or cast a non-auto) the timer is reset.
 
 So if you FD and then auto, you delay your rotation by the difference between an unhasted and a hasted auto (3.4 - 2.9 = .5 for Xbow).  If you FD and then aimed you delay your rotation by-- the time it takes between casting FD and combat drop + trinket swap + the difference between an unhasted auto and aimed shot (~.3 + .5).  Its tricky though-- because this depends on your rotation and when you want to FD.
 
-## Talents
+# Talents
 
 Trueshot Aura is king.  If you're in a raid which does not currently have TS in every physical group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to you and your 4 party members.
 <!-- If you were not previously aware, this might be the first indicator that hunters are really not a core damage class in classic-- we are a ranged support class which kites and tranqs ;). -->
@@ -399,7 +401,7 @@ At that point, you could just respec and go Scatter Shot / LR spec though so /sh
 - The best part of Surefooted is the CC resist chance.
 - Improved FD is good for [Dire Maul Tribute](#Dire-Maul-Tribute) runs and avoiding FD resists on bosses if you are performing active trinket [openers](#Openers).  Do not take this if you are not doing either of those.
 
-## Rotations
+# Rotations
 
 With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.
 
@@ -427,7 +429,7 @@ Using DE puts Renataki's on a 20s CD.  We delay using Rapid Fire so that it hast
 
 *[This information, along with a useful macro, comes from Skinnay.](https://gist.github.com/skinnay-dev/0ce6448cc5f9e74336a096eb60708a99)*
 
-## Buffs
+# Buffs
 
 Hunters get the short end of the buff stick.  Dire Maul Tribute's [Fengus' Ferocity](https://classic.wowhead.com/spell=22817/fengus-ferocity) is only melee AP.  Battle Chicken's [squak](https://classic.wowhead.com/spell=23060/battle-squawk) is only melee attack speed.  These buffs are only useful if you are melee weaving.  Hell, even the AP component of [Rallying Cry of the Dragonslayer](https://classic.wowhead.com/spell=22888/rallying-cry-of-the-dragonslayer) is only melee (luckily the crit does affect ranged attacks).
 
@@ -438,11 +440,11 @@ There are many guides for hunter consumes so I'm not going to recreate them here
 If nothing else, try to have [Elixir of the Mongoose](https://classic.wowhead.com/item=13452/elixir-of-the-mongoose) and [Grilled Squid](https://classic.wowhead.com/item=13928/grilled-squid) with you at all times.  [Greater Fire Protection Potion](https://classic.wowhead.com/item=13457/greater-fire-protection-potion) are key to protecting your Aimed Shot from suffering pushback on Firemaw, Vael, etc.
 
 
-## Pets
+# Pets
 
 Pets can do a considerable percentage of a hunter's damage even if they are not Beast Mastery hunters.  All hunters should focus on keeping their pet alive (pet uptime).  Hunters raiding BWL and MC should take the following pet skills to maximize damage: max fire resist, max shadow resist, max dash, max claw, rest in stamina.
 
-## Gear
+# Gear
 
 [Simming](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) is the only way to answer the question of "should I wear X or Y?"  Gear guides can tell you what to pursue, but simming is the end all for making the best of what you have.  For ally hunters, Skinnay already has a [list of simmed gear sets](https://gist.github.com/skinnay-dev/39f71f3cce1c64b95142f7e0e0d97bca).
 
