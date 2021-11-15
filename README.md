@@ -2,13 +2,12 @@
 
 <!-- https://docs.google.com/spreadsheets/d/1CxvTaIwcvNtzU7bXg2b-gDHeDeUVQeJAp4YqL_HBjvE/htmlview -->
 
-This is a collection of resources for Vanilla WoW Hunters.  It is not a pre-60 guide, nor a pre-BiS gear list, you should find those at [wowhead](https://classic.wowhead.com/guides/classic-wow-hunter-class-overview) or [icy veins](https://www.icy-veins.com/wow-classic/hunter-dps-pve-guide).  There is a lot of misinformation about hunters in Classic Wow--hopefully this document can give you the information you need to come to your own conclusions.  A few things to note before going further:
-- Sim(ulate): simming is the best way to get answers about your current situation.  The [hunter sim](https://docs.google.com/spreadsheets/d/1BIlB2P1kyV_QdD4ULQzvZvS6hK6BDouUQkyHQzCvBGI/edit?usp=sharing) should be treated as gospel and is made by people smarter than you or I.  If you have an issue with the sim (or a question in general):
-- The [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr) is the best place to quickly sort out all kinds of issues.
+This is a collection of resources for Vanilla WoW Hunters.  It is not a pre-60 guide, nor a pre-BiS gear list, you should find those at [wowhead](https://classic.wowhead.com/guides/classic-wow-hunter-class-overview) or [icy veins](https://www.icy-veins.com/wow-classic/hunter-dps-pve-guide).  There is a lot of misinformation about hunters in Classic Wow--hopefully this document can give you the information you need to come to your own conclusions.  If you have any questions, feel free to ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
 
 
 ## Table of Contents
 - [Addons, Weakauras, and Macros](#addons-weakauras-and-macros)
+  - [Macros](#macros) 
 - [Talents](#talents)
   - [Raid Viable PvP Talents](#raid-viable-pvp-talents)
 - [Rotations](#rotations)
@@ -62,12 +61,14 @@ This section is about addons which help you optimize your gameplay a bit more.  
 - I always forget why I have **OmniCC** installed but when I uninstall it I feel empty inside.
 - **Itemrack** lets you manage whole equipment sets and make UI elements for quickly swapping gear.  Its really useful for trinket swapping as a hunter and for managing PvP items like rocket helm and boots.  TrinketMenu does most of what people use Itemrack for in PvP if you prefer that.  
 - I could write a whole section on how garbage most peoples use of scrolling battle text addons is but I'll try and be succinct.  I use **MiksScrollingBattleText** to show combat drops and items/spells comming off CD.  It even makes a little sound!  If you install MSBT, please, please filter it aggressively so 50% of your screen isn't useless damage numbers.  Begrudgingly, if those numbers give you dopamine-- _then scale them to 36 font size and send me your PvP montages._
+- **OPie** is a radial menu, good for: pet spells you use infrequently; tracking spells; consumes, etc.
 
 ### PvP
 
 - I like **Diminish** for PvE even (when it works), but it shines in all PvP giving you timers for your target's DR. 
 - **OmniCD** shows player, target, and party CDs in an easier way.  I use it for Brez and DI in PvE and a whole lot of things in PvP.
 - **RatBG Battleground Target Frames** is arena frames for a BG.
+- **UnitScan** and **Spy Classic** are borderline broken for finding and targetting slippery targets/rares.
 
 ### Hunter Specific
 
@@ -86,6 +87,195 @@ This section is about addons which help you optimize your gameplay a bit more.  
 - **Leatrix Maps** is great.  I use it so my map isn't fullscreen and so I can see unexplored areas that I'd otherwise be checking a wiki page for from time to time.
 - **eAlign** shows a grid on your screen for aligning UI elements when you type /align.
 - **MoveAnything** lets you move and scale anything.  Its buggy and out of date but its really nice for minor tweaks.
+
+## Macros
+
+Auto shot macro:
+```
+#showtooltip
+/cleartarget [dead]
+/targetenemy [noharm]
+/stopattack
+/cast !Auto Shot
+```
+
+Auto shot with petattack and dash/dive (may have to change pet types):
+```
+#showtooltip
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast !Auto Shot
+/stopattack
+/petattack
+/cast [pet:Cat,harm]Dash; [pet:Owl,harm]Dive
+```
+I'd bind both and use them situationally.  Not having a keybind to attack without pet will hurt you down the line. 
+
+**Not a macro, but bind petpassive to an easily accessible key.**  Its the seal icon on your pet bar and hitting it even while the pet is already in that setting calls it back to you or its petstay spot.
+
+Reasonable pet care macro which will Call/Revive/Mend pet without any modifiers.
+```
+#showtooltip
+/use [@pet,nodead,exists] Mend Pet
+/stopmacro [@pet,nodead,exists]
+/use [@pet,dead,exists] Revive Pet
+/castsequence reset=2 Call Pet, Revive Pet
+```
+
+Bind your Aspect of the Cheetah like this allows you to hit it again to cancel.  Using spellbook Cheetah doesn't let you cancel during your GCD.  You should do the same with Aspect of the Pack.
+```
+#showtooltip
+/cancelaura Aspect of the Cheetah
+/cancelaura Aspect of the Pack
+/cast Aspect of the Cheetah
+```
+
+I bind all my other aspects like `/cast !Aspect of the Hawk` so that mashing them doesn't disable them.
+
+Eagle Eye chaining macro lets you recast Eagle Eye from your current spot:
+```
+#showtooltip
+/cleartarget
+/cast !Eagle Eye
+```
+
+
+
+
+Eat/Drink/Prowl/Shadowmeld for Night elfs:
+```
+#showtooltip
+/use Alterac Manna Biscuit
+/use Conjured Crystal Water
+/use Morning Glory Dew
+/use [mod:shift] Conjured Cinnamon Roll
+/use [mod:shift] Roasted Quail
+/cast [mod:alt] !Shadowmeld
+/cast [mod:alt] !Prowl
+```
+
+Adding flag dropping into your mount macro is good if you do any PvP (can omit the mods and flying mount if classic)
+```
+#showtooltip Swift Green Gryphon
+/cancelaura Horde Flag
+/cast [flyable] Swift Green Gryphon
+/cast [noflyable] Reins of the Swift Mistsaber
+```
+
+Use top trinket and RF (add Berseking if Troll):
+```
+#showtooltip Rapid Fire
+/use Rapid Fire
+/use 13
+```
+
+Using items (rocket boots, parachute cloak, etc; replace X with 1 for helm, 8 for boots, 13 for trinket 1, 14 for trinket 2, 15 for cloak, 16 for main hand weapon:
+```
+#showtooltip
+/use X
+```
+
+### Mouseover
+
+What people bind as mouseover macros is pretty subjective.  I'm going to list all of mine in order of most popular to sorta niche things to mouseover.  I always use the syntax `[@mouseover,harm,nodead][]` which will use the mouseover target if it is hostile and not dead, otherwise cast at your target; remove `[]` if you don't want that fallback condition.
+
+Sorta a mouseover, this fires Flare at your cursor: `/cast [@cursor] Flare`
+
+Highly recommend mouseover Scatter Shot
+```
+#showtooltip Scatter Shot
+/stopattack
+/petpassive
+/cast  [@mouseover,harm,nodead][] Scatter Shot
+```
+
+I put Naxx totem stopping into my mouseover HM but I'm not sure that this'll work in SoM
+```
+#showtooltip Hunter's Mark
+/cleartarget
+/targetexact Lightning Totem
+/targetlasttarget [noexists]
+/cast [@mouseover,harm][] Hunter's Mark
+```
+
+Mouseover Raptor Strike/Melee is very useful for lots of free DPS.  This is also weave friendly if you do not queue the attack while out of melee:
+```
+#showtooltip Raptor Strike/cleartarget
+/targetlasttarget
+/targetenemy [noharm]
+/tar [@mouseover,harm]
+/use Raptor Strike
+/use Mongoose Bite
+/startattack
+/stopmacro [@mouseover,noharm]
+/targetlasttarget
+/use !Auto Shot
+/targetlasttarget [noexists][dead]
+```
+
+Mouseover stings are useless for mana drain, DoTing rogues, and blanketting a DoT if you need to trap
+
+- `/cast [@mouseover,harm,nodead][] Viper Sting`
+- `/cast [@mouseover,harm,nodead][] Scorpid Sting`
+- `/cast [@mouseover,harm,nodead][] Serpent Sting`
+
+Petattack mouseover is good to send pet to a target while you ranged another: `/petattack [@mouseover,harm,nodead]`
+
+I include Raptor in a mouseover Wing Clip macro because I almost always want more damage on a WC target.
+```
+#showtooltip Wing Clip
+/stopcasting
+/cleartarget [dead][help]
+/cast Raptor Strike
+/cast [@mouseover,harm,nodead][] Wing Clip
+/startattack
+```
+
+### Feign Death and Trinket Swap Macros
+
+I'll add a whole section for trinket swapping-- if you're not interested and just want an FD macro use the following one.  Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.
+
+```
+#showtooltip Feign Death
+/stopattack
+/petpassive
+/cast Feign Death [combat]
+```
+
+This is a Feign Death macro compatible with Trinket Swapping WA for feigning but not swapping:
+```
+#showtooltip Feign Death
+/stopattack
+/petpassive
+/script WeakAuras.ScanEvents("UNPREP_SWAP")
+/cast Feign Death
+```
+
+This is for feigning and swapping (remember to modify the last two lines for your bags):
+```
+#showtooltip Feign Death
+/petpassive
+/script WeakAuras.ScanEvents("PREP_SWAP")
+/use Renataki's Charm of Beasts
+/cast Feign Death
+/equipslot 13 3 17
+/equipslot 14 3 18
+```
+
+This is the macro I would use to swap out of T2.5 after snapshotting the Rapid Fire buff during Naxx:
+```
+/stopattack
+/petpassive
+/use Renataki's Charm of Beasts
+/cast Feign Death
+/equip Cryptstalker H
+/equip Cryptstalker S
+/equip Cryptstalker T
+/equip Cryptstalker L
+/equip Cryptstalker B
+/equip Band of R
+/equip Mark
+```
 
 ## Talents
 
