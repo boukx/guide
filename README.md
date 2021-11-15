@@ -91,6 +91,9 @@ This section is about addons which help you optimize your gameplay a bit more.  
 
 ## Macros
 
+**READ ME PLEASE**  
+If you have read other classic addon guides you may have heard of a required Aimed Shot macro for avoiding the retry timer; this was fixed late in classic and remains fixed in Season of Mastery.  You can use Aimed Shot in macros if you'd like, but you do not need a macro to just cast Aimed Shot, you can use the spell from your spell book with no issues.
+
 Spammable, target finding auto shot macro:
 ```
 #showtooltip
