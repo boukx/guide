@@ -48,12 +48,13 @@ Outside of Azeroth my work leans heavily on designing software to enable analyst
 - **ThreatClassic2** is a threat addon.  Details has TinyThreat included but TC2 has all sorts of nice features like de-normalizing threat on range or warnings when your threat gets over a certain % or value or both.
 - I use default raid frames scaled down with MoveAnything.  If you have a healer alt probably get a raid frame addon.
 - **HealBarsClassic** (formerly known as HealComms) shows incoming healing on nameplates and raid frames.  I highly recommend installing it even as a DPS and then setting it to only show healing on you and your pet; knowing a heal is incoming can let you make better decisions in raids and PvP.
+- Get a nameplates addon if you're not using Elv.  I used to use **KUI** because I installed it once and liked it (good defaults).  Now I use **Plater**, lots of people love **ThreatPlates**.
 
 ### Gameplay (sorta PvPish)
 
 This section is about addons which help you optimize your gameplay a bit more.  Because vanilla WoW doesn't really have hard PvE content, most of these are far more useful in PvP so you can skip them if you're not planning to engage with that side of things at all.
 
-- Get a nameplates addon if you're not using Elv.  I used to use **KUI** because I installed it once and liked it (good defaults).  Now I use Plater, lots of people love **ThreatPlates**.
+
 - **BigDebuffs** replaces your character in your unitframe with the icon and duration of any CC or powerful cooldown thats currently active.  Its a great additional piece of information and can be configured to show exactly the level of detail you want.  **LoseControl** is similar.
 - **ClassicAuraDurations** adds aura durations to auras on allies and enemies.  Use this to time chain CC on PvP targets or even just keep a mob CC'd over a long pull.
 - I always forget why I have **OmniCC** installed but when I uninstall it I feel empty inside.
