@@ -15,14 +15,14 @@
       <h1 style="margin-bottom: 6px"> {{ page.title | default: site.title }} </h1>
       <h2 style="border-bottom: none; margin-top: 6px">
         <a href="/">Intro</a> -
-        <a href="/pets">Pets</a> -
-        <a href="/leveling">Leveling</a> -
-        <a href="/pve">PvE</a> -
-        <a href="/pvp">PvP</a> -
-        <a href="/raiding">Raiding</a> -
-        <a href="/gearing">Gearing</a> -
-        <a href="/rhok'delar">Rhok'delar</a> -
-        <a href="/diremaul">Diremaul</a>
+        <a href="{{ site.baseurl }}/pets">Pets</a> -
+        <a href="{{ site.baseurl }}/leveling">Leveling</a> -
+        <a href="{{ site.baseurl }}/pve">PvE</a> -
+        <a href="{{ site.baseurl }}/pvp">PvP</a> -
+        <a href="{{ site.baseurl }}/raiding">Raiding</a> -
+        <a href="{{ site.baseurl }}/gearing">Gearing</a> -
+        <a href="{{ site.baseurl }}/rhok'delar">Rhok'delar</a> -
+        <a href="{{ site.baseurl }}/diremaul">Diremaul</a>
 
       </h2>
       {% include anchor_headings.html html=content anchorBody="#" beforeHeading=true %}
