@@ -1,14 +1,18 @@
-This started as an eclectic collection of notes I made in phase 2 classic for newer hunters.  When Season of Mastery launched I filled out the gaps to hopefully make a smoother journey for new hunters.  I hope this information is helpful to you
+This started as an eclectic collection of notes I made in phase 2 classic for newer hunters.  When Season of Mastery launched I filled out the gaps to make a smoother journey for new hunters.  I hope this information is helpful to you
 
 Vanilla hunter is a broken, cursed monstrosity of mediocre design and poor planning; it's nearly my favorite MMO class ever.  I hope this guide gives you the information on its quirks and bugs needed to enjoy the class for its weirdness.  
 
 As always, if you have any questions please ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
 
-Acknowledgements: 
-Zeroji for leveling / progression and DMT
-Runway for DMT
-Skinnay for gearing
-Sixx, Brad, Aaki for support and help
+[comment]: <> (Acknowledgements: )
+
+[comment]: <> (Zeroji for leveling / progression and DMT)
+
+[comment]: <> (Runway for DMT)
+
+[comment]: <> (Skinnay for gearing)
+
+[comment]: <> (Sixx, Brad, Aaki for support and help)
 
 
 # Expectations
