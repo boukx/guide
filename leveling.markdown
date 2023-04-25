@@ -1,5 +1,5 @@
 ---
-title: Leveling
+title: Zero(ji) to 60; a leveling story
 ---
 
 The advised leveling spec for new hunters is Beastmaster all the way to 60 [(click here to see talent order)](https://www.wowhead.com/classic/talent-calc/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj).  The fastest leveling spec for hunter without a %xp buff from levels 1-40 is [Marksmanship](https://www.wowhead.com/classic/talent-calc/hunter/5000322041-52051030513051-03); you must be chain pull, kiting mobs without attempting to let your pet tank them for this to be a speed gain.  If you're new to the spec I highly recommend going Beastmaster; Pathfinder's movement speed and more pet damage to help your pet keep aggro are immense quality of life improvements to casual leveling.
@@ -37,3 +37,4 @@ At a glance, progression table:
 | 51 | [](https://www.wowhead.com/classic/item=19107/bloodseeker) | [](https://www.wowhead.com/classic/quest=8271/hero-of-the-stormpike), AV | This is your pre-raid BiS |
 | 52 | [](https://www.wowhead.com/classic/item=16622/thornflinger) | [](https://www.wowhead.com/classic/quest=4902/wildkin-of-elune), Winterspring | Alliance only, annoying chain |
 | 54 | [](https://www.wowhead.com/classic/item=20646/sandstriders-mark) | [](https://www.wowhead.com/classic/quest=8283/wanted-deathclasp-terror-of-the-sands) | Solo-able elite, not a big upgrade |
+
