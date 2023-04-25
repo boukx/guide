@@ -1,5 +1,5 @@
 ---
-title: Zero(ji) to 60; a leveling story
+title: Zero(ji) to 60; Leveling Fast
 ---
 
 The advised leveling spec for new hunters is Beastmaster all the way to 60 [(click here to see talent order)](https://www.wowhead.com/classic/talent-calc/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj).  The fastest leveling spec for hunter without a %xp buff from levels 1-40 is [Marksmanship](https://www.wowhead.com/classic/talent-calc/hunter/5000322041-52051030513051-03); you must be chain pull, kiting mobs without attempting to let your pet tank them for this to be a speed gain.  If you're new to the spec I highly recommend going Beastmaster; Pathfinder's movement speed and more pet damage to help your pet keep aggro are immense quality of life improvements to casual leveling.
