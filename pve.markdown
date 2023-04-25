@@ -6,23 +6,23 @@ title: Talents, Rotation, Trinket Swapping (oh my)
 Trueshot Aura is king.  If you're in a raid which does not currently have TS in every physical group then you should spec 31 marksman for it.  Hunters do not gain enough DPS from any other talent spec to justify not giving 100 AP to you and your 4 party members.
 <!-- If you were not previously aware, this might be the first indicator that hunters are really not a core damage class in classic-- we are a ranged support class which kites and tranqs ;). -->
 
-The default spec is [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) where slaying applies.  Moving into AQ, all bosses are uncategorized so drop the 3 points in Survival for 3 more points in Ferocity. Points can be moved away from Improved Hunter's Mark if someone else in your raid has it.
+[](https://www.wowhead.com/classic/talent-calc/embed/hunter/53000200502-05251030513051-3)
 
-You should seek 9% hit from armor/scope first-- but if you absolutely cannot get the hit from items (e.g. are very early in a season) then you can talent down SV into Surefooted.  **I have not confirmed this but colloquial advice is you should only deviate from the normal [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) build to go Surefooted if you have less than 40% pet uptime on bosses.**
+The default spec is [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) where slaying applies.  In AQ, all bosses are uncategorized so drop the 3 points in Survival for 3 more points in Ferocity. Points can be moved away from Improved Hunter's Mark if someone else in your raid has it.
+
+You should seek 9% hit from armor/scope first-- but if you absolutely cannot get the hit from items (e.g. are very early in a season) then you can talent down SV into Surefooted.  **Colloquial advice is you should only deviate from the normal [17/31/3](https://classic.wowhead.com/talent-calc/hunter/53000200502-05251030513051-3) build to go Surefooted if you have less than 40% pet uptime on bosses.**
 
 5/31/15 and 0/31/20 are popular PvP/PvE viable specs.  You'll take a small PvE damage hit for lots of really fun talents.  Improved Aspect of the Hawk is a fairly strong DPS buff (even in PvP) so only drop this if you really want to lean into PvP.
 
-At that point, you could just respec and go Scatter Shot / LR spec though so /shrug.
-
 ### Misc Notes on SV talents
 
-- Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick and **does not DR.**_  It can cause some weird aggro issues when mobs with 0 threat are pulled through, though.
+- Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick and **does not DR.**_  It can cause some weird aggro issues when mobs with 0 threat are pulled through E.G. before the C4 door in DMT.
 - Savage Strikes is mandatory for melee weaving in raids and helps make quick work of anyone in melee range.  
 - Improved Wing Clip is almost always a worse choice than entrapment.
 - Clever Traps synergizes strongly with Entrapment.
 - Survivalist is slept on; 10% max health -after- buffs and consumes is very cozy.
 - Deterrence is an incredible PvP cooldown for 1 talent point.  Be careful casting this when duelling a warrior.
-- 1 point in Trap Mastery maxes its usefulness in PvP.
+- 1 point in Trap Mastery caps its usefulness against players for PvP.
 - The best part of Surefooted is the CC resist chance.
 - Improved FD is good for [Dire Maul Tribute](#Dire-Maul-Tribute) runs and avoiding FD resists on bosses if you are performing active trinket [openers](#Openers).  Do not take this if you are not doing either of those.
 
@@ -32,13 +32,13 @@ At that point, you could just respec and go Scatter Shot / LR spec though so /sh
 
 With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.
 
-You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown whenever it will not disrupt your autos*.  After 3 cycles both Aimed and Multishot wil come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your Aimed Shot every time for a damage loss.
+You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown whenever it will not disrupt your autos[(* see clipping).](#-clipping)  After 3 cycles both Aimed and Multishot will come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your Aimed Shot every time for a damage loss.
 
-* see clipping:
 
-### Clipping
 
-The math used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
+### * Clipping
+
+The math used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto and will have its autos delayed more by Aimed Shots long cast time.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
 
 Clipping fast attack speed weapons yields a DPS boost but will drain mana faster.  See [Ranged Weapons](#ranged-weapons) for specifics of whether you should clip a given weapon. 
 
@@ -58,15 +58,27 @@ Using DE puts Renataki's on a 20s CD.  We delay using Rapid Fire so that it hast
 
 *[This information, along with a useful macro, comes from Skinnay.](https://gist.github.com/skinnay-dev/0ce6448cc5f9e74336a096eb60708a99)*
 
+## Melee Weaving
+
+Melee weaving is a small DPS gain for skilled hunters; **you will likely lose dps for your first dozen or so hours melee weaving** so please, practice on DMT ogre spirits for a while before trying it in raid.  Done well, melee weaving with optimal weapons sacrifices 0 ranged damage for an occasional Raptor Strike.  
+
+### Static Weaving
+
+Static weaving is the act of meleeing a target close to you between autos on a target far away from you.  It is made extremely simple via the Mouseover Raptor Strike/Melee [macro.]({{ site.baseurl }}/intro#macros)  Simply hold your cursor over a nearby target and hit the macro between ranged shots.
+
+### "Normal" Weaving
+
+Normal weaving is the basic single-target weaving rotation wherein you run to the target and Raptor Strike between autos when both your Aimed Shot and Multi-Shot are on CD.  With Zanza of Swiftness, it takes a good hunter ~2.5s round trip which is lower than most strong weapon's attack speed: thus you won't delay your Auto Shot weaving correctly.  Note--**you should never weave while hasted from Rapid Fire or Improved Aspect of the Hawk.**
+
+### Max Weaving
+
+Max weaving is the most melee heavy weave rotation and the only one which genuinely sacrifices ranged damage for melee damage.  It should only be performed when consistently weaving sub 2.5 seconds.  The rotation is `auto - aimed - auto - raptor - auto - multi - melee ...` repeat.  Max weaving is a DPS loss over normal weaving and sometimes the ranged rotation when your melee or ranged weapons are too fast.
+
 ## Trinket Swapping
 
-**WELCOME GAMER, two forewords**
+A foreword: don't worry about trinket swapping if you're not going whole fights without clipping or DPS downtime. Trinket swapping is a very marginal DPS increase and its incredibly hard to justify taking loot to potentially lose DPS due to unskilled play.
 
-Don't worry about this if you're not going whole fights without clipping or DPS downtime. Trinket swapping is a very marginal DPS increase _but it is fun as fuck._
-
-Feign Death has a 17% resist chance on mobs 3 levels above you.  It has a 4% chance to resist on mobs your level.  Spells always have a 1% resist chance.  This is why hunters will often run 3% spell hit to lower their resist chance against 60s in Diremaul North to that 1%.  However, it is never a DPS gain to wear spellhit or take Improved Feign Death against a boss; even at 17% chance, FD resists are a very minor DPS loss against bosses and that loss is outweighed significantly by the DPS gain of successful swaps.  If a single mob in combat with you resists, you will be unable to swap.  This means that you will have far more swap fails on fights with many adds.  Additionally, some fights like Patchwerk have environmental hazards (the slimes down the hall) that are technically mobs that can resist your Feign making swapping incredibly frustrating.  Use your best judgement but if it helps-- I swapped every fight of classic except for Patchwerk because the DPS loss of a resist is really just very small.
-
-You will want to get a Feign Resist WA so that you can recover from a resist and resume DPSing as fast as possible (TODO add link here). 
+Feign Death has a 17% resist chance on mobs 3 levels above you.  It has a 4% chance to resist on mobs your level.  Spells always have a 1% resist chance.  This is why hunters will often run 3% spell hit to lower their resist chance against 60s in Diremaul North to that 1%.  However, it is never a DPS gain to wear spellhit or take Improved Feign Death against a boss; even at 17% chance, FD resists are a very minor DPS loss against bosses when reacted to quickly and that loss is outweighed significantly by the DPS gain of successful swaps.  If a single mob in combat with you resists, you will be unable to swap.  This means that you will have far more swap fails on fights with many adds.  Additionally, some fights like Patchwerk have environmental hazards (the slimes down the hall) that are technically mobs that can resist your Feign making swapping incredibly frustrating.  Use your best judgement but if it helps-- I swapped every fight of classic except for Patchwerk because the DPS loss of a resist is really just very small.  You should get a Feign Resist WA so that you can recover from a resist and resume DPSing as fast as possible. 
 
 If you only have a single swap (e.g. Devilsaur to passive trinkets) then simply mash a macro like this:
 

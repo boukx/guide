@@ -2,15 +2,15 @@ Hunters in vanilla are incredible levelers, capable of soloing a wide variety of
 
 In a raid setting, Hunter is a great perspective to lead with a relatively simple ranged rotation and the ability to control the pace of trash via pulling.  Without large balance changes, it remains a sort of ranged support class; you contest warriors and rogues on some loot and do not contest an equally skilled one in damage.  If you want to top meters, hunter isn't a particularly good class to play, but, every raid will want 1-3 for pulling and tranqing -and- good pulling hunters will dramatically increase your raids speed and quality of life.
 
+As always, if you have any questions please ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
+
 # Faction, Race, Profession
 
 On horde, troll hunters dominate with their Berserking racial while orcs are slightly behind in PvE.  In PvP, orc stun resist can make or break fights.  For the Alliance, night elfs and dwarves racials are equally weak in PvE, though provide different situational advantages in PvP; dwarves can Stoneform off rogue's Blinds and night elfs can use Shadowmeld to eat/drink/lurk in the open world.  For PvE, pick either, for organized PvP/duels, pick dwarf, for open world shenanigans, pick nelf.
 
 All ~~hunters~~ _classes_ are advised to go Engineering as one of their professions in vanilla.  Its simply too good to turn down.  If you plan on farming Dire Maul Tribute runs, your other profession should be enchanting but there is no need to level it in vanilla to be able to disenchant.  No other profession dramatically impacts hunter performance in vanilla.
 
-# Addons, Weakauras, and Macros
-
-## Macros
+# Macros
 
 If you have read other classic addon guides you may have heard of a required Aimed Shot macro for avoiding the retry timer; this was fixed late in classic and remains fixed in Season of Mastery.  You can use Aimed Shot in macros if you'd like, but you do not need a macro to just cast Aimed Shot, you can use the spell from your spell book with no issues.
 
@@ -95,7 +95,7 @@ Using items (rocket boots, parachute cloak, etc)  Replace X with 1 for helm, 8 f
 /use X
 ```
 
-### Mouseover
+## Mouseover
 
 Sorta a mouseover, this fires Flare at your cursor: `/cast [@cursor] Flare`
 
@@ -120,7 +120,8 @@ I put Naxx totem stopping into my mouseover HM but I'm not sure whether this wil
 
 Mouseover Raptor Strike/Melee is very useful for lots of free DPS.  This is also weave friendly if you do not queue the attack while out of melee:
 ```
-#showtooltip Raptor Strike/cleartarget
+#showtooltip Raptor Strike
+/cleartarget
 /targetlasttarget
 /targetenemy [noharm]
 /tar [@mouseover,harm]
@@ -151,9 +152,7 @@ I include Raptor in a mouseover Wing Clip macro because I almost always want mor
 /startattack
 ```
 
-### Feign Death
-
-Below is [an advanced section for trinket swapping](#trinket-swapping)-- if you're not interested and just want an FD macro use the following one.  Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.
+## Feign Death
 
 ```
 #showtooltip Feign Death
@@ -162,7 +161,9 @@ Below is [an advanced section for trinket swapping](#trinket-swapping)-- if you'
 /cast Feign Death [combat]
 ```
 
-## Weakauras
+Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.  More advanced FD macros are included in the [PvE section for trinket swapping.]({{ site.baseurl }}/PvE#trinket-swapping)  
+
+# Weakauras
 
 This is an unorganized list of Weakauras I like or use:
 - [Smarnz's Improved Range Check](https://wago.io/-EGVBCgFU) shows your range to a target.
@@ -176,7 +177,7 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 <!-- https://wago.io/FX0Q1REGv -->
 
 
-## Addons
+# Addons
 
 **You should use addons to compliment how you want to play the game.** Copying another person's UI that doesn't play like you isn't going to make you a better player; fixing little issues with your UI can remove friction that you would experience for hours and hours.  Below I'm going to list a healthy mix of addons but if you're just getting into things, then install Leatrix, Weakauras, Questie, DBM, and start your adventure.
 
