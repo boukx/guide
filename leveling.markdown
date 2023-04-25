@@ -2,7 +2,7 @@
 title: Leveling
 ---
 
-The advised leveling spec for new hunters is Beastmaster all the way to 60 [(click here to see talent order)](https://www.wowhead.com/classic/talent-calc/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj).  The fastest leveling spec for hunter without a %xp buff from levels 1-40 is Marksmanship; you must be chain pull, kiting mobs without attempting to let your pet tank them for this to be a speed gain.  If you're new to the spec I highly recommend going Beastmaster; Pathfinder's movement speed and more pet damage to help your pet keep aggro are immense quality of life improvements to casual leveling.
+The advised leveling spec for new hunters is Beastmaster all the way to 60 [(click here to see talent order)](https://www.wowhead.com/classic/talent-calc/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj).  The fastest leveling spec for hunter without a %xp buff from levels 1-40 is [Marksmanship](https://www.wowhead.com/classic/talent-calc/hunter/5000322041-52051030513051-03); you must be chain pull, kiting mobs without attempting to let your pet tank them for this to be a speed gain.  If you're new to the spec I highly recommend going Beastmaster; Pathfinder's movement speed and more pet damage to help your pet keep aggro are immense quality of life improvements to casual leveling.
 
 [https://www.wowhead.com/classic/talent-calc/embed/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj](https://www.wowhead.com/classic/talent-calc/embed/hunter/5000322151511051-150510304/0AEFGhjjkjjjmpnmmmmrrrrsr1BDeGajjjj)
 
@@ -18,8 +18,8 @@ At a glance, progression table:
 |-|-|-|-|
 | 5 | [](https://www.wowhead.com/classic/item=2506/hornwood-recurve-bow) | Sen'jin/Shadowglen Bowyer | |
 | 7 | [](https://www.wowhead.com/classic/item=4931/hickory-shortbow) | [](https://www.wowhead.com/classic/quest=835/securing-the-lines), Durotar | Horde only, optimal to take staff |
-| 10 | Taming Quest | Your starting zone | If Night elf, optimal to tame an Owl after the quest |
-| 10ish | Train staves | Darn/Org/SW/TB | Optional, but optimal for speed |
+| 10 | Taming quest | Your starting zone | If Night elf, optimal to tame an Owl after the quest |
+| | Train staves | Darn/Org/SW/TB | Optional, but optimal for speed |
 | 11 | [](https://www.wowhead.com/classic/item=2507/laminated-recurve-bow) | Bowyers | |
 | 14 | [](https://www.wowhead.com/classic/item=11304/fine-longbow) | Bowyers | Limited stock, if out buy [](https://www.wowhead.com/classic/item=3026/reinforced-bow) |
 | 17 | Screech 1 | [](https://www.wowhead.com/classic/npc=154/greater-fleshripper), Westfall | Horde swim from Grom'Gol blimp, optimally skip |
