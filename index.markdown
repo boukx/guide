@@ -1,22 +1,3 @@
-This started as an eclectic collection of notes I made in phase 2 classic for newer hunters.  When Season of Mastery launched I filled out the gaps to make a smoother journey for new hunters.  I hope this information is helpful to you
-
-Vanilla hunter is a broken, cursed monstrosity of mediocre design and poor planning; it's nearly my favorite MMO class ever.  I hope this guide gives you the information on its quirks and bugs needed to enjoy the class for its weirdness.  
-
-As always, if you have any questions please ask in the [Classic WoW Hunter Discord](https://discord.gg/8TVHxRr).
-
-[comment]: <> (Acknowledgements: )
-
-[comment]: <> (Zeroji for leveling / progression and DMT)
-
-[comment]: <> (Runway for DMT)
-
-[comment]: <> (Skinnay for gearing)
-
-[comment]: <> (Sixx, Brad, Aaki for support and help)
-
-
-# Expectations
-
 Hunters in vanilla are incredible levelers, capable of soloing a wide variety of content, and have by far some of the most intricate vanilla systems in pet taming and management; the class is fairly easy to pick up with a few stumbling blocks but has a very high capacity for skill expression in the open world, instances, and PvP.
 
 In a raid setting, Hunter is a great perspective to lead with a relatively simple ranged rotation and the ability to control the pace of trash via pulling.  Without large balance changes, it remains a sort of ranged support class; you contest warriors and rogues on some loot and do not contest an equally skilled one in damage.  If you want to top meters, hunter isn't a particularly good class to play, but, every raid will want 1-3 for pulling and tranqing -and- good pulling hunters will dramatically increase your raids speed and quality of life.
@@ -197,13 +178,11 @@ https://wago.io/92y4H96_t) is a castbar with estimated pushback.  Hunters should
 
 ## Addons
 
-Outside of Azeroth my work leans heavily on designing software to enable analysts to make good descisions; I change my UI very often from PvE optimized Elv setups to retro game RP themes to most recently a minimalist, Blizz-like PvP UI.
-
-**You should use addons to compliment how you want to play the game.** Copying another person's UI that doesn't play like you isn't going to make you a better player; fixing little issues with your UI can remove friction that you would experience for hours and hours.  Below I'm going to list a healthy mix of addons but if you're just getting into things, then install Leatrix, Weakauras, Questie, DBM, and start your adventure.  c:
+**You should use addons to compliment how you want to play the game.** Copying another person's UI that doesn't play like you isn't going to make you a better player; fixing little issues with your UI can remove friction that you would experience for hours and hours.  Below I'm going to list a healthy mix of addons but if you're just getting into things, then install Leatrix, Weakauras, Questie, DBM, and start your adventure.
 
 ### General Purpose Addons
 - **Leatrix Plus** enables a bunch of things like faster auto loot, further camer distance, auto invites, moving/scaling buffs and frames.  All of which by default are off, so you can pick and choose the features you need via /ltp or the minimap button.  I highly recommend installing this and then browsing the settings from time to time.
-- **Weakauras** (2?) is basically mandatory.  Weakaura's are mini-addons that can be shared in game.  I'll be recommending a couple specific to hunter further down.
+- **Weakauras** allows you to install are mini-addons/UI elements that can be shared in game.  I'll be recommending a couple specific to hunter further down.
 - **Questie** helps you quest.
 
 ### Actionbars
@@ -214,7 +193,7 @@ Outside of Azeroth my work leans heavily on designing software to enable analyst
 
 ### PvE
 - **DBM** and **BigWigs** give you vital information about boss encounters.  Like the actionbar addons, they do all the same things and they even work with eachother at this point.  Install one. I've used both. I use both currently because BW has better customization and DBM has a better PvP plugin for AB flags.
-**ThreatClassic2** is a threat addon.  Details has TinyThreat included but TC2 has all sorts of nice features like normalizing threat on range or warnings when your threat gets over a certain % or value or both.
+- **ThreatClassic2** is a threat addon.  Details has TinyThreat included but TC2 has several nice features like normalizing threat on range or warnings when your threat gets over a certain % or value or both.
 - **Details** is a meter addon.  You can see healing, interrupts, damage taken, and all sorts of things.
 - **LibHealComm-4.0** shows incoming healing on nameplates and raid frames.  I highly recommend installing it even as a DPS and then setting it to only show healing on you and your pet; knowing a heal is incoming can let you make better decisions in raids and PvP.
 
@@ -226,7 +205,7 @@ This section is about addons which help you optimize your gameplay a bit more.  
 - **BigDebuffs** replaces your character in your unitframe with the icon and duration of any CC or powerful cooldown thats currently active.  Its a great additional piece of information and can be configured to show exactly the level of detail you want.  **LoseControl** is similar.
 - **ClassicAuraDurations** adds aura durations to auras on allies and enemies.  Use this to time chain CC on PvP targets or even just keep a mob CC'd over a long pull.
 - I always forget why I have **OmniCC** installed but when I uninstall it I feel empty inside.
-- **Itemrack** lets you manage whole equipment sets and make UI elements for quickly swapping gear.  Its really useful for trinket swapping as a hunter and for managing PvP items like rocket helm and boots.  TrinketMenu does most of what people use Itemrack for in PvP if you prefer that.  
+- **Itemrack** lets you manage whole equipment sets and make UI elements for quickly swapping gear.  Its really useful for trinket swapping as a hunter and for managing PvP items like rocket helm and boots.  **TrinketMenu** does most of what people use Itemrack for in PvP if you prefer that.  
 - I could write a whole section on how garbage most peoples use of scrolling battle text addons is but I'll try and be succinct.  I use **MiksScrollingBattleText** to show combat drops and items/spells comming off CD.  It even makes a little sound!  If you install MSBT, please, please filter it aggressively so 50% of your screen isn't useless damage numbers.  Begrudgingly, if those numbers give you dopamine-- _then scale them to 36 font size and send me your PvP montages._
 - **OPie** is a radial menu, good for: pet spells you use infrequently; tracking spells; consumes, etc.
 
@@ -239,7 +218,7 @@ This section is about addons which help you optimize your gameplay a bit more.  
 
 ### Hunter Specific
 
-- **A swing timer** shows the time until your next auto shot.  There are a couple popular ones pinned in the hunter discord but some arn't working properly.  Mine works if you want: [https://wago.io/YcGbmuPhy]()
+- **A swing timer** shows the time until your next auto shot.  There are a couple popular ones pinned in the hunter discord but some arn't working properly for Era right now.  I currently use **WeaponSwingTimer SixxFix.**
 - **A range indicator** shows the approximate distance between you and your target. There are a number of these in the hunter discord.  They all work.
 - [Raikho's Weave Helpers exist.](https://wago.io/p/Raikho)
 
@@ -253,4 +232,4 @@ This section is about addons which help you optimize your gameplay a bit more.  
 - I feel bad putting **Masque** in this category because I'm sure some people will miss it but its such a simple quality of life improvement.  Classic icons are inconsistent and have different borders on them.  Masque with its default Classic skin fixes this; **BlizzBuffsFacade** applies the fix to your buffs as well.  You can get fun and skin your icons all weird if you want but just installing these 2 addons cleans up your UI with 0 effort.
 - **Leatrix Maps** is great.  I use it so my map isn't fullscreen and so I can see unexplored areas that I'd otherwise be checking a wiki page for from time to time.
 - **eAlign** shows a grid on your screen for aligning UI elements when you type /align.
-- **MoveAnything** lets you move and scale anything.  Its buggy and out of date but its really nice for minor tweaks.
+- **MoveAnything** lets you move, scale, and/or hide all UI elements.  Its buggy and out of date but its really nice for minor tweaks.

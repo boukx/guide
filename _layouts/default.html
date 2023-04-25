@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }}</title>
     <link rel="shortcut icon" type="image/png" href="media/favicon.png">
+    <script>const whTooltips = {colorLinks: false, iconizeLinks: false, renameLinks: true};</script>
+    <script src="https://wow.zamimg.com/js/tooltips.js"></script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -22,7 +24,8 @@
         <a href="{{ site.baseurl }}/raiding">Raiding</a> -
         <a href="{{ site.baseurl }}/gearing">Gearing</a> -
         <a href="{{ site.baseurl }}/rhok'delar">Rhok'delar</a> -
-        <a href="{{ site.baseurl }}/diremaul">Diremaul</a>
+        <a href="{{ site.baseurl }}/diremaul">Diremaul</a> -
+        <a href="{{ site.baseurl }}/about">About</a>
 
       </h2>
       {% include anchor_headings.html html=content anchorBody="#" beforeHeading=true %}
