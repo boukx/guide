@@ -32,7 +32,7 @@ You should seek 9% hit from armor/scope first-- but if you absolutely cannot get
 
 With even crit RNG, hunters do around half of their damage from Auto Shot.  Their rotation, then, is about weaving in Aimed Shot and Multishot with minimally disrupting their Autos.
 
-You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown whenever it will not disrupt your autos[(* see clipping).](#-clipping)  After 3 cycles both Aimed and Multishot will come off cooldown at the same time: **always prioritize aimed.**  If you `mutli - auto - aimed -...` their CDs will stay synchronized and you will be delaying your Aimed Shot every time for a damage loss.
+You should start with `Auto - aimed - auto - multi -...` and then cast aimed and multi off cooldown whenever it will not disrupt your autos[(* see clipping).](#-clipping)  After 3 cycles both Aimed and Multishot will come off cooldown at the same time: **always prioritize aimed.**  If you `multi - auto - aimed -...` their CDs will stay synchronized and you will be delaying your Aimed Shot every time for a damage loss.
 
 
 
