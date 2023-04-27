@@ -20,17 +20,17 @@ At a glance, progression table:
 | 7 | [](https://www.wowhead.com/classic/item=4931/hickory-shortbow) | [](https://www.wowhead.com/classic/quest=835/securing-the-lines), Durotar | Horde only, optimal to take staff |
 | 10 | Taming quest | Your starting zone | If Night elf, optimal to tame an Owl |
 | | Train staves | Darn/Org/SW/TB | Optional, but optimal for speed |
-| 10 | [](https://www.wowhead.com/classic/item=5340/cauldron-stirrer) | [](https://www.wowhead.com/classic/quest=853/apothecary-zamah) | Horde only |
+| 10 | [](https://www.wowhead.com/classic/item=5340/cauldron-stirrer) | [](https://www.wowhead.com/classic/quest=853/apothecary-zamah), Barrens | Horde only |
 | 11 | [](https://www.wowhead.com/classic/item=2507/laminated-recurve-bow) | Bowyers | |
 | 14 | [](https://www.wowhead.com/classic/item=11304/fine-longbow) | Bowyers | Limited stock, if out buy [](https://www.wowhead.com/classic/item=3026/reinforced-bow) |
-| 15 | [](https://www.wowhead.com/classic/item=5306/wind-rider-staff) | [](https://www.wowhead.com/classic/quest=913/cry-of-the-thunderhawk) | Horde only |
+| 15 | [](https://www.wowhead.com/classic/item=5306/wind-rider-staff) | [](https://www.wowhead.com/classic/quest=913/cry-of-the-thunderhawk), Barrens | Horde only |
 | 17 | Screech 1 | [](https://www.wowhead.com/classic/npc=154/greater-fleshripper), Westfall | Horde swim from Grom'Gol blimp, optimally skip |
 | 19 | [](https://www.wowhead.com/classic/item=6469/venomstrike) | Final boss in WC | Lasts until Big Game Hunter (28) |
 | 19 | [](https://www.wowhead.com/classic/item=3742/bow-of-plunder) | [](https://www.wowhead.com/classic/quest=567/dangerous), Hillsbrad | Horde only |
 | 20 | [](https://www.wowhead.com/classic/item=6739/cliffrunners-aim) | [](https://www.wowhead.com/classic/quest=1197/the-sacred-flame), Thousand Needles | Horde only |
 | 20 | [](https://www.wowhead.com/classic/item=3027/heavy-recurve-bow) | Bowyers | Buy if not doing any quests ^ v|
 | 22 | [](https://www.wowhead.com/classic/item=3493/raptors-end) | [](https://www.wowhead.com/classic/quest=296/ormers-revenge), Wetlands | Alliance only chain |
-| 22 | [](https://www.wowhead.com/classic/item=16889/polished-walking-staff) | [](https://www.wowhead.com/classic/quest=6544/toreks-assault) | Horde only |
+| 22 | [](https://www.wowhead.com/classic/item=16889/polished-walking-staff) | [](https://www.wowhead.com/classic/quest=6544/toreks-assault), Ashenvale | Horde only |
 | 29 | [](https://www.wowhead.com/classic/item=15809/heavy-crossbow) | SW/IF/UC Merchants | Worth learning crossbows if an upgrade |
 | 31 | [](https://www.wowhead.com/classic/item=1522/headhunting-spear) | Low drop rate BoE | |
 | 32 | [](https://www.wowhead.com/classic/item=12251/big-stick) | Vendors | [](https://www.wowhead.com/classic/item=12252/staff-of-protection) if out of stock |
@@ -38,14 +38,14 @@ At a glance, progression table:
 | 34 | Screech 2 | [](https://www.wowhead.com/classic/npc=4158/salt-flats-vulture), Shimmering Flats | Worth routing around, insane QoL increase | 
 | 35 | [](https://www.wowhead.com/classic/item=17686/master-hunters-bow) | [](https://www.wowhead.com/classic/quest=208/big-game-hunter), STV | Achievable early, but most people will wait till 40ish |
 | 42 | [](https://www.wowhead.com/classic/item=11307/massive-longbow) | Bowyers | Limited stock, buy if lucky | 
-| 45 | [](https://www.wowhead.com/classic/item=10826/staff-of-lore) | [](https://www.wowhead.com/classic/quest=3161/gahzridian) | |
+| 45 | [](https://www.wowhead.com/classic/item=10826/staff-of-lore) | [](https://www.wowhead.com/classic/quest=3161/gahzridian), Tanaris | |
 | 46 | [](https://www.wowhead.com/classic/item=19114/highland-bow) | [](https://www.wowhead.com/classic/quest=7847/return-to-primal-torntusk), Hinterlands | Horde only, elite quests |
 | 49 | Screech 3 | [](https://www.wowhead.com/classic/npc=7097/ironbeak-owl) or [](https://www.wowhead.com/classic/npc=1809/carrion-vulture) | Vulture probably easier for Horde |
 | 50 | [](https://www.wowhead.com/classic/item=17753/verdant-keepers-aim) | [](https://www.wowhead.com/classic/quest=7065/corruption-of-earth-and-seed), Mara | Solo-able with practice at 45, keep bow until pre-BiS |
-| 50 | [](https://www.wowhead.com/classic/item=9683/strength-of-the-treant) | [](https://www.wowhead.com/classic/quest=3129/weapons-of-spirit) | Horde only, long chain, great weave weapon |
+| 50 | [](https://www.wowhead.com/classic/item=9683/strength-of-the-treant) | [](https://www.wowhead.com/classic/quest=3129/weapons-of-spirit), Feralas | Horde only, long chain, great weave weapon |
 | 51 | [](https://www.wowhead.com/classic/item=19107/bloodseeker) | [](https://www.wowhead.com/classic/quest=8271/hero-of-the-stormpike), AV | This is your pre-raid BiS |
 | 52 | [](https://www.wowhead.com/classic/item=16622/thornflinger) | [](https://www.wowhead.com/classic/quest=4902/wildkin-of-elune), Winterspring | Alliance only, annoying chain |
 | 54 | [](https://www.wowhead.com/classic/item=20646/sandstriders-mark) | [](https://www.wowhead.com/classic/quest=8283/wanted-deathclasp-terror-of-the-sands) | Solo-able elite, not a big upgrade |
-| 56 | [](https://www.wowhead.com/classic/item=17004/sarahs-guide) | [](https://www.wowhead.com/classic/quest=6136/the-corpulent-one) | Horde only |
+| 56 | [](https://www.wowhead.com/classic/item=17004/sarahs-guide) | [](https://www.wowhead.com/classic/quest=6136/the-corpulent-one), EPL | Horde only |
 | 59 | Screech 4 | [](https://www.wowhead.com/classic/npc=7456/winterspring-screecher) | Learn for potential raid screeching |
 
