@@ -161,7 +161,7 @@ I include Raptor in a mouseover Wing Clip macro because I almost always want mor
 /cast Feign Death [combat]
 ```
 
-Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.  More advanced FD macros are included in the [PvE section for trinket swapping.]({{ site.baseurl }}/PvE#trinket-swapping)  
+Some people will add `/cast Freezing Trap` afterwards so they can mash a single key to FD and trap.  I don't like this, but you do you.  More advanced FD macros are included in the [PvE section for trinket swapping.]({{ site.baseurl }}/pve#trinket-swapping)  
 
 # Weakauras
 
