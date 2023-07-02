@@ -64,7 +64,7 @@ Melee weaving is a small DPS gain for skilled hunters; **you will likely lose dp
 
 ### Static Weaving
 
-Static weaving is the act of meleeing a target close to you between autos on a target far away from you.  It is made extremely simple via the Mouseover Raptor Strike/Melee [macro.]({{ site.baseurl }}/intro#macros)  Simply hold your cursor over a nearby target and hit the macro between ranged shots.
+Static weaving is the act of meleeing a target close to you between autos on a target far away from you.  It is made extremely simple via the Mouseover Raptor Strike/Melee [macro.]({{ site.baseurl }}#macros)  Simply hold your cursor over a nearby target and hit the macro between ranged shots.
 
 ### "Normal" Weaving
 
