@@ -21,3 +21,12 @@ If nothing else, try to have [Elixir of the Mongoose](https://classic.wowhead.co
   per boss optimization
   link to pulling guide
   notable drops?
+
+## MC and BWL
+Offense skills, fire / shadow res, stam, r3-4 armor
+
+## AQ (and ZG)
+Offense skills, nature / shadow res, stam, r3-4 armor
+
+## Naxx
+Offense skills, cold / shadow res, stam, r3-4 armor
