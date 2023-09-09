@@ -2,14 +2,14 @@
 title: Fantastic Beasts and Where to Find Them
 ---
 
-[Petopia is the pet bible.](https://www.wow-petopia.com/classic/)  Differ any specific questions there.
+[Petopia is the pet bible.](https://www.wow-petopia.com/classic/)  Defer any specific questions there.
 
-Pets can do a considerable percentage of a hunter's damage even if they are not Beast Mastery hunters.  All hunters should focus on keeping their pet alive and on the boss (pet uptime).  Check the [raiding]({{ site.baseurl }}/raiding) section for pet talents per each raid: we vary the resistances to give our pets the best chance of surviving.
+Pets can do a considerable percentage of a hunter's damage even if they are not Beast Mastery hunters.  All hunters should focus on keeping their pet alive and on the boss (pet uptime).  **Check the [raiding]({{ site.baseurl }}/raiding) section for pet talents per each raid**: we vary the resistances to give our pets the best chance of surviving.
 
 About meta pet families:
-- **Owls/vultures** with screech are the recommended leveling pets; screech debuff application does more threat than any offensive abilities, is AoE, and helps your pet tank.  Strong hunter levelers route around screech ranks.
+- **Owls/vultures** with screech are the recommended leveling pets; screech debuff application does more threat than any offensive abilities, is AoE, and helps your pet tank (damage + 2 threat per AP reduced).  Strong hunter levelers route around screech ranks.
 - For raid you will either bring a screech pet to debuff the boss or should bring a **cat**.  Fast attack speed pets do very marginally more damage if your tank is applying Gift of Arthas.
-- **Wolves** should only be useds to trick threat in Dire Maul Tribute; their howl ability is buggy, consumed on spell casts, and even if it theoretically worked for your party, lower DPS than a cat.
+- **Wolves** should only be used to trick threat in Dire Maul Tribute; their howl ability is buggy, consumed on spell casts, and even if it theoretically worked for your party, lower DPS than a cat.
 
 ## Taming and Keeping
 

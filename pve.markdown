@@ -18,7 +18,7 @@ You should seek 9% hit from armor/scope first-- but if you absolutely cannot get
 
 - Entrapment is extremely strong for group PvP like BGs since at 5/5 it has a 25% chance to snare enemies in Frost Traps _every tick and **does not DR.**_  It can cause some weird aggro issues when mobs with 0 threat are pulled through E.G. before the C4 door in DMT.
 - Savage Strikes is mandatory for melee weaving in raids and helps make quick work of anyone in melee range.  
-- Improved Wing Clip is almost always a worse choice than entrapment.
+- Improved Wing Clip is almost always a worse choice than Entrapment.
 - Clever Traps synergizes strongly with Entrapment.
 - Survivalist is slept on; 10% max health -after- buffs and consumes is very cozy.
 - Deterrence is an incredible PvP cooldown for 1 talent point.  Be careful casting this when duelling a warrior.
@@ -38,9 +38,7 @@ You should start with `Auto - aimed - auto - multi -...` and then cast aimed and
 
 ### * Clipping
 
-The math used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto and will have its autos delayed more by Aimed Shots long cast time.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping.
-
-Clipping fast attack speed weapons yields a DPS boost but will drain mana faster.  See [Ranged Weapons](#ranged-weapons) for specifics of whether you should clip a given weapon. 
+The math used to calculate Aimed Shot's damage mostly ignores weapon speed and so two different weapons with the same DPS but different attack speeds will do very similar Aimed Shot damage.  However, the faster weapon will do less damage for each auto and will have its autos delayed more by Aimed Shots long cast time.  Because of this, we prioritize Aimed Shots over Auto Shots for weapons with an attack speed less than 3.  This means that you should cast Aimed Shot on CD even if it means interrupting a partially cast Auto Shot: this is called clipping. Clipping fast attack speed weapons yields a DPS boost but will drain mana faster; if you're running out of mana of fights while clipping and consuming correctly, you should revert to not clipping regardless of your weapon speed.
 
 ### Openers
 
@@ -72,7 +70,7 @@ Normal weaving is the basic single-target weaving rotation wherein you run to th
 
 ### Max Weaving
 
-Max weaving is the most melee heavy weave rotation and the only one which genuinely sacrifices ranged damage for melee damage.  It should only be performed when consistently weaving sub 2.5 seconds.  The rotation is `auto - aimed - auto - raptor - auto - multi - melee ...` repeat.  Max weaving is a DPS loss over normal weaving and sometimes the ranged rotation when your melee or ranged weapons are too fast.
+Max weaving is the most melee heavy weave rotation and the only one which genuinely sacrifices ranged damage for melee damage.  It should only be performed when consistently weaving sub 2.5 seconds.  The rotation is `auto - aimed - auto - raptor - auto - multi - melee ...` repeat.  Max weaving is a DPS loss over normal weaving and sometimes the ranged rotation when your melee or ranged weapons are too fast.  **Do not max weave while hasted.**
 
 ## Trinket Swapping
 
@@ -192,7 +190,3 @@ If you do anything else out of FD (move or cast a non-auto) the timer is reset.
 
 So if you FD and then auto, you delay your rotation by the difference between an unhasted and a hasted auto (3.4 - 2.9 = .5 for Xbow).  If you FD and then aimed you delay your rotation by-- the time it takes between casting FD and combat drop + trinket swap + the difference between an unhasted auto and aimed shot (~.3 + .5).  Its tricky though-- because this depends on your rotation and when you want to FD.
 
-
-For each trinket, and trinket pair
-for each rotation
-with varying amounts of haste

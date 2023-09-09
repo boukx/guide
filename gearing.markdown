@@ -12,7 +12,7 @@ The T2 8 piece set bonus debuff has a proc rate of .5 ppm.  It takes up a debuff
 
 ### Ranged Weapons
 
-Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often misleading as slower weapons will do much better damage than faster ones.  Below is a list of hunter weapons tiered by their DPS for a tier 2 MM hunter and whether the weapons should be clipped.  Please be informed-- it is not worth taking a Striker's Mark or something similar from a melee when a blue dungeon weapon is better.
+Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often misleading as slower weapons will do much better damage than faster ones.  Below is a list of hunter weapons tiered by their DPS for a tier 2 MM hunter and whether the weapons should be clipped.  Please be informed-- it is not worth taking a Striker's Mark or something similar from a melee when a blue dungeon weapon is better.  **Pre-raid BiS options in bold.**
 
 | Weapon | AS | Best DPS | Worst DPS | Auto DPS |
 |--------|--------------|----------|-----------|----------|
@@ -24,10 +24,10 @@ Hunter's ranged weapons are poorly described by tooltips.  DPS numbers are often
 | Rank 14 Weapons | 2.9 | 538, Clipped | 521, Full | 285 (8th) |
 | Rhok’delar | 2.9 | 534, Clipped | 517, Full | 282 (10th) |
 | Fahrad’s Reloading Repeater | 3.2 | 530, Full | 447, Clipped | 261 (22nd) |
-| Bloodseeker | 3.3 | 528, Full | 451, Clipped | 259 (23th) |
+| **Bloodseeker** | 3.3 | 528, Full | 451, Clipped | 259 (23th) |
 | Huhuran’s Stinger | 2.7 | 525, Full | 517, Clipped | 286 (6th) |
 | Blessed Qiraji Musket | 2.6 | 525, Full | 506, Clipped | 286 (6th) |
-| Carapace Spine Crossbow | 3.3 | 523, Full | 447, Clipped | 257 (26th) |
+| **Carapace Spine Crossbow** | 3.3 | 523, Full | 447, Clipped | 257 (26th) |
 | Dragonbreath Hand Cannon | 2.8 | 521, Clipped | 516, Full | 281 (11th) |
 | Heartstriker | 2.6 | 516, Full | 498, Clipped | 280 (12th) |
 | Flawless Arcanite Rifle | 3.0 | 510, Clipped | 482, Full | 233 (28th) |

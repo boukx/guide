@@ -2,22 +2,22 @@
 title: Pull, Tranq and Trueshot Aura
 ---
 
-# Role
-
-YOU PULL
-
 # Buffs
 
-Hunters get the short end of the buff stick.  Dire Maul Tribute's [Fengus' Ferocity](https://classic.wowhead.com/spell=22817/fengus-ferocity) is only melee AP.  Battle Chicken's [squak](https://classic.wowhead.com/spell=23060/battle-squawk) is only melee attack speed.  These buffs are only useful if you are melee weaving.  Hell, even the AP component of [Rallying Cry of the Dragonslayer](https://classic.wowhead.com/spell=22888/rallying-cry-of-the-dragonslayer) is only melee (luckily the crit does affect ranged attacks).
+In 1.12, hunters got the short end of the buff stick and did not receive benefits to their ranged attacks from many world buffs.  **This is fixed in era and seasons.**  You should collect all world buffs before raids if you want to perform optimally: [Darkmoon Faire Damage](https://www.wowhead.com/classic/spell=23768/sayges-dark-fortune-of-damage) when available, [Dire Maul Tribute](https://www.wowhead.com/classic/zone=2557/dire-maul) buffs, [Rallying Cry of the Dragonslayer](https://classic.wowhead.com/spell=22888/rallying-cry-of-the-dragonslayer), [Spirit of Zandalar](https://www.wowhead.com/classic/spell=24425/spirit-of-zandalar), and [Songflower Serenade](https://www.wowhead.com/classic/spell=15366/songflower-serenade).  
+
+[Warchief's Blessing](https://www.wowhead.com/classic/spell=16609/warchiefs-blessing) haste only applies to melee so it's only useful for weaving or its mp5.  [Gnomish Battle Chicken's](https://www.wowhead.com/classic/item=10725/gnomish-battle-chicken) [Battle Squawk](https://classic.wowhead.com/spell=23060/battle-squawk) is only melee attack speed, but you should still have engi and have one for your party.
 
 ### Consumables
-<!-- agi scroll, juju power, juj might -->
-There are many guides for hunter consumes so I'm not going to recreate them here.  Just note: there are consumes for your ranged attacks, consumes for buffing your pet (yes, it makes a significant DPS increase), and consumes for melee weaving.
 
-If nothing else, try to have [Elixir of the Mongoose](https://classic.wowhead.com/item=13452/elixir-of-the-mongoose) and [Grilled Squid](https://classic.wowhead.com/item=13928/grilled-squid) with you at all times.  [Greater Fire Protection Potion](https://classic.wowhead.com/item=13457/greater-fire-protection-potion) are key to protecting your Aimed Shot from suffering pushback on Firemaw, Vael, etc.
+Optimal consumes for all hunters are [Elixir of the Mongoose](https://classic.wowhead.com/item=13452/elixir-of-the-mongoose), [Grilled Squid](https://classic.wowhead.com/item=13928/grilled-squid), [Scroll of Agility IV](https://www.wowhead.com/classic/item=10309/scroll-of-agility-iv) for you and your pet, [Scroll of Strength IV](https://www.wowhead.com/classic/item=10310/scroll-of-strength-iv) for your pet, and [Consecrated Sharpening Stones](https://www.wowhead.com/classic/item=23122/consecrated-sharpening-stone) for Undead otherwise [Brilliant Mana Oils](https://www.wowhead.com/classic/item=20748/brilliant-mana-oil). 
+
+Weavers should additionally use either [Juju Might](https://www.wowhead.com/classic/item=12460/juju-might) or [Winterfall Firewater](https://www.wowhead.com/classic/item=12820/winterfall-firewater) (they do not stack) as well as scroll themselves with [Scroll of Strength IV](https://www.wowhead.com/classic/item=10310/scroll-of-strength-iv).  Horde weavers in windfury groups should not use stones/mana oil; Horde weavers outside windfury groups and all Alliance weavers should use [Consecrated Sharpening Stones](https://www.wowhead.com/classic/item=23122/consecrated-sharpening-stone) on undead otherwise [Brilliant Mana Oils](https://www.wowhead.com/classic/item=20748/brilliant-mana-oil) if it prevents you from running out of mana, otherwise [Elemental Sharpening Stones](https://www.wowhead.com/classic/spell=22757/elemental-sharpening-stone).
+
+**All hunters should bring relevant elemental protection potions and encounter specific consumes.**  Namely, [Greater Fire Protection Potion](https://classic.wowhead.com/item=13457/greater-fire-protection-potion) prevent Aimed Shot pushback on Vael and Firemaw.
 
 # Raid TLDRs
-  talents, pet talents
+  <-- talents, pet talents -->
   per boss optimization
   link to pulling guide
   notable drops?
